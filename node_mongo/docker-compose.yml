@@ -1,0 +1,25 @@
+version: '2.0'
+services:
+    student:
+       build: ./student
+       container_name: "student"
+       ports:
+       - "80:80"
+       - "22:22"
+       tty: true
+    teacher:
+       build: ./teacher
+       container_name: "teacher"
+       tty: true
+    node:
+        build: ./node
+        container_name: "node"
+        ports:
+        - "3000:3000"
+        tty: true
+    db:
+      build: ./db
+      container_name: "db"
+      ports:
+      - "27017:27017"
+      tty: true

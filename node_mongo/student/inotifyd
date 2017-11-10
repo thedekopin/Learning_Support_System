@@ -1,0 +1,86 @@
+#!/bin/sh
+#
+# inotifywait deamon
+#
+# chkconfig: 345 98 20 
+# description: inotifywait
+#
+# processname: inotifyd
+# Source function library.
+. /etc/rc.d/init.d/functions
+
+inotifywait="/usr/bin/inotifywait"
+prog=$(basename $inotifywait)
+
+lockfile="/var/lock/subsys/inotifywait"
+pidfile="/var/run/${prog}.pid"
+
+MONITOR_DIR='/etc/ /var/'
+LOGFILE=/var/log/inotifywait.log
+
+start() {
+    [ -x $inotifywait ] || exit 5
+    echo -n $"Starting $prog: "
+    $inotifywait -dm $MONITOR_DIR \
+        -e CREATE,MODIFY,DELETE \
+        -o $LOGFILE \
+        --format '%T %w%f (%e)' \
+        --timefmt '%F %T'
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && touch $lockfile
+    return $retval
+}
+
+stop() {
+    echo -n $"Stopping $prog: "
+    killproc -p $pidfile $prog
+    retval=$?
+    echo
+    [ $retval -eq 0 ] && rm -f $lockfile
+    return $retval
+}
+
+restart() {
+    stop
+    sleep 1
+    start
+}
+
+reload() {
+    echo -n $"Reloading $prog: "
+    killproc -p $pidfile $prog -HUP
+    echo
+}
+
+rh_status() {
+    status $prog
+}
+
+rh_status_q() {
+    rh_status >/dev/null 2>&1
+}
+
+case "$1" in
+    start)
+        rh_status_q && exit 0
+        $1
+        ;;
+    stop)
+        rh_status_q && exit 0
+        $1
+        ;;
+    restart)
+        $1
+        ;;
+    reload)
+        rh_status_q || exit 7
+        $1
+        ;;
+    status)
+        rh_status
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|reload|status|restart}"
+        exit 2
+esac

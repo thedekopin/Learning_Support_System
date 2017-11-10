@@ -1,0 +1,76 @@
+#!/bin/bash
+
+# inotifywait: Start/Stop inotifywait
+#
+# chkconfig: - 80 20
+# description: inotifywait waits for changes to files using inotify.
+#
+# processname: inotifywait
+
+# Source function library.
+. /etc/rc.d/init.d/functions
+. /etc/sysconfig/network
+
+if [ -f /etc/sysconfig/inotifywait ]; then
+        . /etc/sysconfig/inotifywait
+fi
+
+# Path
+inotifywait=${INOTIFYWAIT-/usr/bin/inotifywait}
+prog=inotifywait
+#pidfile=${PIDFILE-/var/run/inotify/inotify.pid}
+lockfile=${LOCKFILE-/var/lock/subsys/inotifywait}
+
+RETVAL=0
+STOP_TIMEOUT=${STOP_TIMEOUT-10}
+
+start() {
+   echo -n $"Starting $prog: "
+   $inotifywait \
+   --format '%w%f %e %T' \
+   --timefmt '%Y/%m/%d-%H:%M:%S' \
+   -o $LOGFILE \
+   -e $EVENT \
+   -dm $MONITOR $MONITOR2
+   success
+
+   RETVAL=$?
+   echo
+   [ $RETVAL -eq 0 ] && touch ${lockfile}
+   return $RETVAL
+}
+
+stop() {
+   #status -p ${pidfile} $inotifywait > /dev/null
+   if [[ $RETVAL = 0 ]]; then
+        echo -n $"Stopping $prog: "
+        killproc $inotifywait
+   else
+        echo -n $"Stopping $prog: "
+        success
+   fi
+
+   RETVAL=$?
+   echo
+   [ $RETVAL -eq 0 ] && rm -f ${lockfile} #${pidfile}
+   return $RETVAL
+}
+case "$1" in
+   start)
+      start
+      ;;
+   stop)
+      stop
+      ;;
+   status)
+      status inotifywait
+      ;;
+   restart)
+      stop
+      start
+      ;;
+   *)
+      echo $"Usage: $0 {start|stop|status|restart}"
+      exit 1
+esac
+exit $?
