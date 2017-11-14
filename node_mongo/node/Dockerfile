@@ -7,7 +7,11 @@ RUN yum install -y nodejs gcc-c++ make
 ADD mongodb-org-3.4.repo /etc/yum.repos.d
 RUN yum -y install mongodb-org
 
-RUN useradd teacher
-RUN passwd root
-RUN echo "teacher:root" | chpasswd
+RUN useradd teacher 
+RUN echo "teacher:rehcaet" | chpasswd
 RUN su teacher
+RUN mkdir -p home/teacher/web
+COPY web home/teacher/web
+
+#CMD npm install home/teacher/web/package.json
+#CMD home/teacher/web/DEBUG=web* npm start
