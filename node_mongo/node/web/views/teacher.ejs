@@ -88,17 +88,39 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <%# studentList.forEach(function(student) { %>
+                            <% student.forEach(function(st) { %>
                                 <tr>
-                                    <td><a href="/students">test1</a><%# student.prog.task1 %></td>
-                                    <td>test2<%# student.prog.task2 %></td>
-                                    <td>test3<%# student.prog.task3 %></td>
-                                    <td>test4<%# student.prog.task4 %></td>
-                                    <td>test5<%# student.prog.task1 %></td>
+                                    <td>
+                                        <a href="/students/<%= st.s_id %>">
+                                            <%= st.s_id %>
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <% if(st.s_task.task1 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
+                                    <td>
+                                        <% if(st.s_task.task2 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
+                                    <td>
+                                        <% if(st.s_task.task3 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
                                 </tr>
-                            <%# } %>
+                                <% }); %>
                         
                         </tbody>
+
                     </table>
                 </div>
             </div>

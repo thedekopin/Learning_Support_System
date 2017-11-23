@@ -76,63 +76,82 @@
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
                 <h2 class="header">B99XXX</h2>
-                    <ul class="nav nav-tabs">
-                        <li class="active">
-                            <a data-toggle="tab" href="#home">課題</a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#menu1">進捗</a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#menu2">変更</a>
-                        </li>
-                    </ul>
-                    
-                    <div class="tab-content">
-                        <div id="home" class="tab-pane fade in active">
-                            <h3>HOME</h3>
-                            <p>Some content.</p>
-                        </div>
-                        <div id="menu1" class="tab-pane fade">
-                            <h3>進捗状況</h3>
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th>課題名</th>
-                                        <th>状況</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>t<%# taskList[0].task.name %></td>
-                                        <td>
-                                            test1<%# student[0].prog.task1 %>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>e<%# taskList[0].task.name %></td>
-                                        <td>
-                                            test2<%# student[0].prog.task1 %>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>s<%# taskList[0].task.name %></td>
-                                        <td>
-                                            test3<%# student[0].prog.task1 %>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div id="menu2" class="tab-pane fade">
-                            <h3>Menu 2</h3>
-                            <p>Some content in menu 2.</p>
-                        </div>
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#home">課題</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#menu1">進捗</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#menu2">変更</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h3>HOME</h3>
+                        <p>Some content.</p>
                     </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>進捗状況</h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>課題名</th>
+                                    <th>状況</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>t
+                                        <%# taskList[0].task.name %>
+                                    </td>
+                                    <td>
+                                        <% if(student.s_task.task1 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>e
+                                        <%# taskList[0].task.name %>
+                                    </td>
+                                    <td>
+                                        <% if(student.s_task.task2 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>s
+                                        <%# taskList[0].task.name %>
+                                    </td>
+                                    <td>
+                                        <% if(student.s_task.task3 === 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>Menu 2</h3>
+                        <p>Some content in menu 2.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
