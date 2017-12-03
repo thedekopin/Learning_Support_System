@@ -15,7 +15,7 @@ COPY web home/teacher/web
 
 RUN yum install -y openssh-clients
 COPY *.sh home/teacher/
-RUN chmod +x *.sh
+RUN chmod +x home/teacher/*.sh
 
 #CMD npm install home/teacher/web/package.json
 #CMD home/teacher/web/DEBUG=web* npm start

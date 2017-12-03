@@ -75,7 +75,7 @@
             </div>
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 
-                <h2 class="header">B99XXX</h2>
+                <h2 class="header"><%= student.id %></h2>
                 <ul class="nav nav-tabs">
                     <li class="active">
                         <a data-toggle="tab" href="#home">課題</a>
@@ -90,8 +90,79 @@
 
                 <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
-                        <h3>HOME</h3>
-                        <p>Some content.</p>
+                        <h3>課題</h3>
+                        <h1>Apache入門！</h1>
+                        <br>
+                        <p class="h4">最終目的:この課題ではwebサーバーであるApacheを使って、web上にHello Apache!と表示させる。</p>
+                        <br>
+                        
+                        
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>1. Apacheをインストール</h4>
+                            </div>
+                            <div class="panel-body">
+                                <h4>yumコマンドを使ってApache(httpd)をインストールしよう</h4>
+                                <p>
+                                    yumコマンドとは、パッケージの統合管理システムである。このコマンドでさまざまなパッケージの管理ができる。
+                                    <br>
+                                    <br> 基本的な使い方として,
+                                    <br> ・インストールする場合
+                                    <code>yum -y install パッケージ名</code>
+                                    <br> ・アンインストールする場合
+                                    <code>yum -y erase パッケージ名</code>
+                                    <br> ・Apacheはhttpdというパッケージ名になっている。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>2. hello_apache.htmlを作成・配置する</h4>
+                            </div>
+                            <div class="panel-body">
+                                <h4>ドキュメントルートにhello_apahce.htmlを配置しよう</h4>
+                                <p>
+                                    Documentroot(ドキュメントルート)の説明は省略
+                                    <br> Apacheの標準のドキュメントルートは/var/www/html/以下になっている。(Centosの場合)
+                                    <br> そのディレクトリ以下にHTMLファイルを配置することでWebページを表示できるようになる。
+                                    <br>
+                                    <br> ・HTMLファイルの名前はhello_apache.htmlとする。
+                                    <br> ・ファイル内にはHello Apache!と書き込む。
+                                    <br> ・エディタはviを使用すれば良い。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>3. Apacheを起動する！</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    <h4>serviceコマンドでApacheを実行しよう</h4>
+                                    serviceコマンドの説明は省略
+                                    <br> serviceコマンドの基本的な使い方
+                                    <br> ・プログラムをスタートする場合
+                                    <code>service パッケージ名 start</code>
+                                    <br> ・プログラムをストップする場合
+                                    <code>service パッケージ名 stop</code>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>Check! ブラウザを立ち上げて確認してみよう！</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>ブラウザを立ち上げて、URLにlocalhost/hello_apache.htmlに接続する。
+                                    <br> 下図のように表示されれば課題クリア!
+                                </p>
+                                <img>
+                            </div>
+                        </div>
+
                     </div>
                     <div id="menu1" class="tab-pane fade">
                         <h3>進捗状況</h3>
@@ -106,11 +177,16 @@
                             <tbody>
                                 <tr>
                                     <th scope="row">1</th>
-                                    <td>t
-                                        <%# taskList[0].task.name %>
-                                    </td>
                                     <td>
-                                        <% if(student.s_task.task1 === 1) { %>
+                                        1. Apacheをインストール
+                                    </td>
+
+                                    <td>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.0" role="button">提出</a>
+                                    </td>
+                                    
+                                    <td>
+                                        <% if( student.task[0] == 1 ) { %>
                                             success
                                         <% } else { %>
                                             failed
@@ -119,38 +195,51 @@
                                 </tr>
                                 <tr>
                                     <th scope="row">2</th>
-                                    <td>e
+                                    <td>2. hello_apache.htmlを作成・配置する
                                         <%# taskList[0].task.name %>
                                     </td>
                                     <td>
-                                        <% if(student.s_task.task2 === 1) { %>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.1" role="button">提出</a>
+                                    </td>
+                                    <td>
+                                        <% if( student.task[1] == 1 ) { %>
                                             success
-                                        <% } else { %>
-                                            failed
-                                        <% } %>
+                                            <% } else { %>
+                                                failed
+                                                <% } %>
                                     </td>
                                 </tr>
+
                                 <tr>
                                     <th scope="row">3</th>
-                                    <td>s
+                                    <td>3. Apacheを起動する！
                                         <%# taskList[0].task.name %>
                                     </td>
                                     <td>
-                                        <% if(student.s_task.task3 === 1) { %>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.2" role="button">提出</a>
+                                    </td>
+                                    <td>
+                                        <% if( student.task[2] == 1 ) { %>
                                             success
                                         <% } else { %>
                                             failed
                                         <% } %>
                                     </td>
                                 </tr>
+
                             </tbody>
 
                         </table>
                     </div>
                     <div id="menu2" class="tab-pane fade">
-                        <h3>Menu 2</h3>
-                        <p>Some content in menu 2.</p>
+                        <h3>変更履歴</h3>
+                        <a href=https://github.com/thedekopin/edit_log>log</a>
                     </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <h3>コマンド履歴</h3>
+                        <p>Some content.</p>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -81,43 +81,47 @@
                         <thead>
                             <tr>
                                 <th>学生番号</th>
-                                <th>t<%# taskList[0].task1 %></th>
-                                <th>e<%# taskList[0].task2 %></th>
-                                <th>s<%# taskList[0].task3 %></th>
-                                <th>t<%# taskList[0].task4 %></th>
+                                <th>1. Apacheをインストール
+                                    <%# taskList[0].task1 %>
+                                </th>
+                                <th>2. hello_apache.htmlを作成・配置する
+                                    <%# taskList[0].task2 %>
+                                </th>
+                                <th>3. Apacheを起動する！
+                                    <%# taskList[0].task3 %>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
                             <% student.forEach(function(st) { %>
                                 <tr>
                                     <td>
-                                        <a href="/students/<%= st.s_id %>">
-                                            <%= st.s_id %>
+                                        <a href="/students/<%= st.id %>">
+                                            <%= st.id %>
                                         </a>
                                     </td>
                                     <td>
-                                        <% if(st.s_task.task1 === 1) { %>
+                                        <% if(st.task[0] == 1) { %>
+                                            success
+                                        <% } else { %>
+                                            failed
+                                        <% } %>
+                                    <td>
+                                        <% if(st.task[1] == 1) { %>
                                             success
                                         <% } else { %>
                                             failed
                                         <% } %>
                                     </td>
                                     <td>
-                                        <% if(st.s_task.task2 === 1) { %>
-                                            success
-                                        <% } else { %>
-                                            failed
-                                        <% } %>
-                                    </td>
-                                    <td>
-                                        <% if(st.s_task.task3 === 1) { %>
+                                        <% if(st.task[2] == 1) { %>
                                             success
                                         <% } else { %>
                                             failed
                                         <% } %>
                                     </td>
                                 </tr>
-                                <% }); %>
+                            <% }); %>
                         
                         </tbody>
 
