@@ -13,6 +13,9 @@ RUN service sshd start
 RUN passwd -d root
 RUN echo 'root:root' | chpasswd
 
+RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash - 
+RUN yum install -y nodejs gcc-c++ make
+RUN yum install -y vim
 RUN yum -y install inotify-tools
 
 COPY inotifyd /etc/rc.d/init.d/
