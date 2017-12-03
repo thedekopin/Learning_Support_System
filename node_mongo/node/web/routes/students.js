@@ -8,7 +8,7 @@ var User = require('../models/student');
 
 /* GET home page. */
 router.get('/:id', function (req, res, next) {
-    User.findOne({ s_id: req.params.id }, function (err, student) {
+    User.findOne({ id: req.params.id }, function (err, student) {
         if (err) {
             res.send(err);
         } else {
