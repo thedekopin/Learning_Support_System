@@ -14,7 +14,5 @@ RUN mkdir -p home/teacher/web
 COPY web home/teacher/web
 
 RUN yum install -y openssh-clients
-RUN chmod +x home/teacher/web/public/shellscript/task*/*.sh
-
-#CMD npm install home/teacher/web/package.json
-#CMD home/teacher/web/DEBUG=web* npm start
+RUN echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config
+RUN chmod +x /home/teacher/web/public/shellscript/task.*/*.sh
