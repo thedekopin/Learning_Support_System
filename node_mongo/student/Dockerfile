@@ -17,6 +17,10 @@ RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 RUN yum install -y nodejs gcc-c++ make
 RUN yum install -y vim
 RUN yum -y install inotify-tools
+WORKDIR /inotify
+RUN npm init
+RUN npm install inotifywait
+COPY test.js .
 
 COPY inotifyd /etc/rc.d/init.d/
 RUN chmod +x /etc/rc.d/init.d/inotifyd
