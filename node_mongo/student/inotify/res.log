@@ -1,5 +1,10 @@
-Script started on Tue 12 Dec 2017 04:37:50 PM UTC
-0;root@74bfc5d076c4:~?1034h2017-12-12T16:37:50 root@74bfc5d076c4 ~# exit
+Script started on Mon 18 Dec 2017 03:47:03 AM JST
+0;root@74bfc5d076c4:/?1034h2017-12-18T03:47:03 root@74bfc5d076c4 /# servicK
+0;root@74bfc5d076c4:/2017-12-18T03:47:10 root@74bfc5d076c4 /#
+0;root@74bfc5d076c4:/2017-12-18T03:47:11 root@74bfc5d076c4 /#
+0;root@74bfc5d076c4:/2017-12-18T03:47:11 root@74bfc5d076c4 /# service httpd start
+Starting httpd:
+0;root@74bfc5d076c4:/2017-12-18T03:47:21 root@74bfc5d076c4 /# exit
 exit
 
-Script done on Tue 12 Dec 2017 04:37:52 PM UTC
+Script done on Mon 18 Dec 2017 03:47:29 AM JST
