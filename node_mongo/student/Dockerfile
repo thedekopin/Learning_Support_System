@@ -2,6 +2,13 @@
 FROM centos:centos6
 MAINTAINER kazu
 
+RUN cp /etc/sysconfig/clock /etc/sysconfig/clock.org
+RUN echo -e 'ZONE="Asia/Tokyo"\nUTC=false' > /etc/sysconfig/clock
+RUN cp /etc/localtime /etc/localtime.org
+RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
+
+COPY .bashrc ~/.bashrc
+
 RUN yum -y install epel-release
 RUN yum -y install openssh-server
 
