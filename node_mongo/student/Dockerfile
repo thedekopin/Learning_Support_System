@@ -7,7 +7,7 @@ RUN echo -e 'ZONE="Asia/Tokyo"\nUTC=false' > /etc/sysconfig/clock
 RUN cp /etc/localtime /etc/localtime.org
 RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
-COPY .bashrc ~/.bashrc
+COPY ./.bashrc /
 
 RUN yum -y install epel-release
 RUN yum -y install openssh-server
@@ -24,10 +24,9 @@ RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash -
 RUN yum install -y nodejs gcc-c++ make
 RUN yum install -y vim
 RUN yum -y install inotify-tools
-WORKDIR /inotify
-RUN npm init
-RUN npm install inotifywait
-COPY test.js .
+COPY ./inotify/inotify.js /inotify/
+
+COPY inotify/s.sh /inotify/
 
 COPY inotifyd /etc/rc.d/init.d/
 RUN chmod +x /etc/rc.d/init.d/inotifyd
@@ -36,4 +35,4 @@ RUN chkconfig inotifyd on
 
 EXPOSE 22
 
-CMD /sbin/init 
+CMD /sbin/init

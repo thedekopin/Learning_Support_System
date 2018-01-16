@@ -8,6 +8,7 @@ services:
         - "22:22"
        volumes:
         - ./student/inotify:/inotify
+       hostname: B14069
        tty: true
     teacher:
        build: ./teacher

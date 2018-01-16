@@ -1,0 +1,729 @@
+Script started on Mon 15 Jan 2018 02:23:15 PM JST$
+^[]0;root@B14069:~^G^[[?1034h2018-01-15T14:23:16 root@B14069 ~# cd /$
+^[]0;root@B14069:/^G2018-01-15T14:23:19 root@B14069 /# service httpd restart$
+Stopping httpd: ^[[60G[  OK  ]$
+Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5 for ServerName$
+^[[60G[  OK  ]$
+^[]0;root@B14069:/^G2018-01-15T14:23:25 root@B14069 /# cd inotify/$
+^[]0;root@B14069:/inotify^G2018-01-15T14:23:30 root@B14069 /inotify# shellscript/cmd_log_insert.sh $
+Script started on Mon 15 Jan 2018 03:00:50 PM JST$
+^[]0;root@B14069:~^G^[[?1034h2018-01-15T15:00:50 root@B14069 ~# yum lsi^H^[[K^H^[[Kist | grep httpd$
+httpd.x86_64                                2.2.15-60.el6.centos.6       @updates$
+httpd-tools.x86_64                          2.2.15-60.el6.centos.6       @updates$
+httpd-devel.i686                            2.2.15-60.el6.centos.6       updates$
+httpd-devel.x86_64                          2.2.15-60.el6.centos.6       updates$
+httpd-itk.x86_64                            2.2.22-7.el6                 epel   $
+httpd-manual.noarch                         2.2.15-60.el6.centos.6       updates$
+iipsrv-httpd-fcgi.noarch                    1.0.0-1.0.el6                epel   $
+libmicrohttpd.i686                          0.9.33-4.el6                 base   $
+libmicrohttpd.x86_64                        0.9.33-4.el6                 base   $
+libmicrohttpd-devel.i686                    0.9.33-4.el6                 base   $
+libmicrohttpd-devel.x86_64                  0.9.33-4.el6                 base   $
+libmicrohttpd-doc.noarch                    0.9.33-4.el6                 base   $
+lighttpd.x86_64                             1.4.45-1.el6                 epel   $
+lighttpd-fastcgi.x86_64                     1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_gssapi.x86_64            1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_mysql.x86_64             1.4.45-1.el6                 epel   $
+lighttpd-mod_geoip.x86_64                   1.4.45-1.el6                 epel   $
+lighttpd-mod_mysql_vhost.x86_64             1.4.45-1.el6                 epel   $
+mirmon-httpd.noarch                         2.11-1.el6                   epel   $
+python-mozhttpd.noarch                      0-0.3.gitb077641.el6         epel   $
+python2-sphinxcontrib-httpdomain.noarch     1.5.0-3.el6                  epel   $
+sysusage-httpd.noarch                       5.5-3.el6                    epel   $
+viewvc-httpd.noarch                         1.1.26-1.el6                 epel   $
+web-assets-httpd.noarch                     5-2.el6                      epel   $
+^[]0;root@B14069:~^G2018-01-15T15:01:42 root@B14069 ~# cd ino^G^H^[[K^H^[[K^H^[[K/inotify/$
+^[]0;root@B14069:/inotify^G2018-01-15T15:02:20 root@B14069 /inotify# shellscript/cmd_log_insert.sh $
+Script started on Mon 15 Jan 2018 03:00:50 PM JST$
+^[]0;root@B14069:~^G^[[?1034h2018-01-15T15:00:50 root@B14069 ~# yum lsi^H^[[K^H^[[Kist | grep httpd$
+httpd.x86_64                                2.2.15-60.el6.centos.6       @updates$
+httpd-tools.x86_64                          2.2.15-60.el6.centos.6       @updates$
+httpd-devel.i686                            2.2.15-60.el6.centos.6       updates$
+httpd-devel.x86_64                          2.2.15-60.el6.centos.6       updates$
+httpd-itk.x86_64                            2.2.22-7.el6                 epel   $
+httpd-manual.noarch                         2.2.15-60.el6.centos.6       updates$
+iipsrv-httpd-fcgi.noarch                    1.0.0-1.0.el6                epel   $
+libmicrohttpd.i686                          0.9.33-4.el6                 base   $
+libmicrohttpd.x86_64                        0.9.33-4.el6                 base   $
+libmicrohttpd-devel.i686                    0.9.33-4.el6                 base   $
+libmicrohttpd-devel.x86_64                  0.9.33-4.el6                 base   $
+libmicrohttpd-doc.noarch                    0.9.33-4.el6                 base   $
+lighttpd.x86_64                             1.4.45-1.el6                 epel   $
+lighttpd-fastcgi.x86_64                     1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_gssapi.x86_64            1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_mysql.x86_64             1.4.45-1.el6                 epel   $
+lighttpd-mod_geoip.x86_64                   1.4.45-1.el6                 epel   $
+lighttpd-mod_mysql_vhost.x86_64             1.4.45-1.el6                 epel   $
+mirmon-httpd.noarch                         2.11-1.el6                   epel   $
+python-mozhttpd.noarch                      0-0.3.gitb077641.el6         epel   $
+python2-sphinxcontrib-httpdomain.noarch     1.5.0-3.el6                  epel   $
+sysusage-httpd.noarch                       5.5-3.el6                    epel   $
+viewvc-httpd.noarch                         1.1.26-1.el6                 epel   $
+web-assets-httpd.noarch                     5-2.el6                      epel   $
+^[]0;root@B14069:~^G2018-01-15T15:01:42 root@B14069 ~# cd ino^G^H^[[K^H^[[K^H^[[K/inotify/$
+^[]0;root@B14069:/inotify^G2018-01-15T15:02:20 root@B14069 /inotify# shellscript/cmd_log_insert.sh $
+$
+$
+$
+$
+2018-01-15T14:23:19$
+~#$
+cd /$ root@B14069 /# service httpd restart$$
+$
+2018-01-15T14:23:19$
+~#$
+cd /$ root@B14069 /# service httpd restart$$
+["Starting httpd: httpd: Could not reliably determine the server'" , "s fully qualified domain name, using 172.18.0.5 for ServerName$" ]$
+2018-01-15T14:23:19$
+~#$
+cd /$ root@B14069 /# service httpd restart$$
+$
+2018-01-15T14:23:30$
+/#$
+cd inotify/$ root@B14069 /inotify# shellscript/cmd_log_insert.sh $$
+$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd.x86_64 2.2.15-60.el6.cento" , "s.6 @updates$" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd-tools.x86_64 2.2.15-60.el6.cento" , "s.6 @updates$" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd-devel.i686 2.2.15-60.el6.cento" , "s.6 updates$" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd-devel.x86_64 2.2.15-60.el6.cento" , "s.6 updates$" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd-itk.x86_64 2.2.22-7.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["httpd-manual.noarch 2.2.15-60.el6.cento" , "s.6 updates$" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["iipsrv-httpd-fcgi.noarch 1.0.0-1.0.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["libmicrohttpd.i686 0.9.33-4.el6 " , " base $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["libmicrohttpd.x86_64 0.9.33-4.el6 " , " base $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["libmicrohttpd-devel.i686 0.9.33-4.el6 " , " base $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["libmicrohttpd-devel.x86_64 0.9.33-4.el6 " , " base $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["libmicrohttpd-doc.noarch 0.9.33-4.el6 " , " base $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd-fastcgi.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd-mod_authn_gssapi.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd-mod_authn_mysql.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd-mod_geoip.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["lighttpd-mod_mysql_vhost.x86_64 1.4.45-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["mirmon-httpd.noarch 2.11-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["python-mozhttpd.noarch 0-0.3.gitb077641.el" , "6 epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["python2-sphinxcontrib-httpdomain.noarch 1.5.0-3.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["sysusage-httpd.noarch 5.5-3.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["viewvc-httpd.noarch 1.1.26-1.el6 " , " epel $" ]$
+2018-01-15T15:00:50$
+~#$
+yum lsi^H^[[K^H^[[Kist | grep httpd$$
+["web-assets-httpd.noarch 5-2.el6 " , " epel $" ]$
+^[]0;root@B14069:/inotify^G2018-01-15T15:02:25 root@B14069 /inotify# vim log/cm^Gd.log $
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"log/cmd.log" 36L, 2858C^[[>c^[[1;1HScript started on Mon 15 Jan 2018 02:23:15 PM JST$$
+^[]0;root@B14069:~^G^[[?1034h2018-01-15T14:23:16 root@B14069 ~# cd /$$
+^[]0;root@B14069:/^G2018-01-15T14:23:19 root@B14069 /# service httpd restart$$
+Stopping httpd: ^[[60G[  OK  ]$$
+Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5 for ServerName$$
+^[[60G[  OK  ]$$
+^[]0;root@B14069:/^G2018-01-15T14:23:25 root@B14069 /# cd inotify/$$
+^[]0;root@B14069:/inotify^G2018-01-15T14:23:30 root@B14069 /inotify# shellscript/cmd_log_insert.sh $$
+Script started on Mon 15 Jan 2018 03:00:50 PM JST$$
+^[]0;root@B14069:~^G^[[?1034h2018-01-15T15:00:50 root@B14069 ~# yum lsi^H^[[K^H^[[Kist | grep httpd$$
+httpd.x86_64^[[32C2.2.15-60.el6.centos.6^[[7C@updates$$
+httpd-tools.x86_64^[[26C2.2.15-60.el6.centos.6^[[7C@updates$$
+httpd-devel.i686^[[28C2.2.15-60.el6.centos.6^[[7Cupdates$$
+httpd-devel.x86_64^[[26C2.2.15-60.el6.centos.6^[[7Cupdates$$
+httpd-itk.x86_64^[[28C2.2.22-7.el6^[[17Cepel   $$
+httpd-manual.noarch^[[25C2.2.15-60.el6.centos.6^[[7Cupdates$$
+iipsrv-httpd-fcgi.noarch^[[20C1.0.0-1.0.el6^[[16Cepel   $$
+libmicrohttpd.i686^[[26C0.9.33-4.el6^[[17Cbase   $$
+libmicrohttpd.x86_64^[[24C0.9.33-4.el6^[[17Cbase   $$
+libmicrohttpd-devel.i686^[[20C0.9.33-4.el6^[[17Cbase   $$
+libmicrohttpd-devel.x86_64^[[18C0.9.33-4.el6^[[17Cbase   $$
+libmicrohttpd-doc.noarch^[[20C0.9.33-4.el6^[[17Cbase   $$
+lighttpd.x86_64^[[29C1.4.45-1.el6^[[17Cepel   $$
+lighttpd-fastcgi.x86_64^[[21C1.4.45-1.el6^[[17Cepel   $$
+lighttpd-mod_authn_gssapi.x86_64^[[12C1.4.45-1.el6^[[17Cepel   $$
+lighttpd-mod_authn_mysql.x86_64^[[13C1.4.45-1.el6^[[17Cepel   $$
+lighttpd-mod_geoip.x86_64^[[19C1.4.45-1.el6^[[17Cepel   $$
+lighttpd-mod_mysql_vhost.x86_64^[[13C1.4.45-1.el6^[[17Cepel   $$
+mirmon-httpd.noarch^[[25C2.11-1.el6^[[19Cepel   $$
+python-mozhttpd.noarch^[[22C0-0.3.gitb077641.el6^[[9Cepel   $$
+python2-sphinxcontrib-httpdomain.noarch     1.5.0-3.el6^[[18Cepel   $$
+sysusage-httpd.noarch^[[23C5.5-3.el6^[[20Cepel   $$
+viewvc-httpd.noarch^[[25C1.1.26-1.el6^[[17Cepel   $$
+web-assets-httpd.noarch^[[21C5-2.el6^[[22Cepel   $$
+^[]0;root@B14069:~^G2018-01-15T15:01:42 root@B14069 ~# cd ino^G^H^[[K^H^[[K^H^[[K/inotify/$$
+^[]0;root@B14069:/inotify^G2018-01-15T15:02:20 root@B14069 /inotify# shellscript/cmd_log_insert.sh $$
+~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H1,1^[[11CAll^[[1;1H^[[?12l^[[?25h^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^G^[[44;1H^[[44;1H^[[K^[[44;1H^[[?1l^[>^[[?1049l^[]0;root@B14069:/inotify^G2018-01-15T15:21:44 root@B14069 /inotify# yum list | grep httpd$
+$
+httpd.x86_64                                2.2.15-60.el6.centos.6       @updates$
+httpd-tools.x86_64                          2.2.15-60.el6.centos.6       @updates$
+httpd-devel.i686                            2.2.15-60.el6.centos.6       updates$
+httpd-devel.x86_64                          2.2.15-60.el6.centos.6       updates$
+httpd-itk.x86_64                            2.2.22-7.el6                 epel   $
+httpd-manual.noarch                         2.2.15-60.el6.centos.6       updates$
+iipsrv-httpd-fcgi.noarch                    1.0.0-1.0.el6                epel   $
+libmicrohttpd.i686                          0.9.33-4.el6                 base   $
+libmicrohttpd.x86_64                        0.9.33-4.el6                 base   $
+libmicrohttpd-devel.i686                    0.9.33-4.el6                 base   $
+libmicrohttpd-devel.x86_64                  0.9.33-4.el6                 base   $
+libmicrohttpd-doc.noarch                    0.9.33-4.el6                 base   $
+lighttpd.x86_64                             1.4.45-1.el6                 epel   $
+lighttpd-fastcgi.x86_64                     1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_gssapi.x86_64            1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_mysql.x86_64             1.4.45-1.el6                 epel   $
+lighttpd-mod_geoip.x86_64                   1.4.45-1.el6                 epel   $
+lighttpd-mod_mysql_vhost.x86_64             1.4.45-1.el6                 epel   $
+mirmon-httpd.noarch                         2.11-1.el6                   epel   $
+python-mozhttpd.noarch                      0-0.3.gitb077641.el6         epel   $
+python2-sphinxcontrib-httpdomain.noarch     1.5.0-3.el6                  epel   $
+sysusage-httpd.noarch                       5.5-3.el6                    epel   $
+viewvc-httpd.noarch                         1.1.26-1.el6                 epel   $
+web-assets-httpd.noarch                     5-2.el6                      epel   $
+^[]0;root@B14069:/inotify^G2018-01-15T15:21:56 root@B14069 /inotify# $
+^[]0;root@B14069:/inotify^G2018-01-15T15:21:56 root@B14069 /inotify# yu^H^[[K^H^[[Kyum -y erase ht^Gtpd*$
+Loaded plugins: fastestmirror, ovl$
+Setting up Remove Process$
+Resolving Dependencies$
+--> Running transaction check$
+---> Package httpd.x86_64 0:2.2.15-60.el6.centos.6 will be erased$
+---> Package httpd-tools.x86_64 0:2.2.15-60.el6.centos.6 will be erased$
+--> Finished Dependency Resolution$
+$
+Dependencies Resolved$
+$
+==============================================================================================================================================================$
+ Package                              Arch                            Version                                         Repository                         Size$
+==============================================================================================================================================================$
+Removing:$
+ httpd                                x86_64                          2.2.15-60.el6.centos.6                          @updates                          3.0 M$
+ httpd-tools                          x86_64                          2.2.15-60.el6.centos.6                          @updates                          138 k$
+$
+Transaction Summary$
+==============================================================================================================================================================$
+Remove        2 Package(s)$
+$
+Installed size: 3.2 M$
+Downloading Packages:$
+Running rpm_check_debug$
+Running Transaction Test$
+Transaction Test Succeeded$
+Running Transaction$
+  Erasing    : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Erasing    : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+  Verifying  : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Verifying  : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+$
+Removed:$
+  httpd.x86_64 0:2.2.15-60.el6.centos.6                                      httpd-tools.x86_64 0:2.2.15-60.el6.centos.6                                     $
+$
+Complete!$
+^[]0;root@B14069:/inotify^G2018-01-15T15:22:20 root@B14069 /inotify# yum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[Kyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[Kyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hlist | grep httpd$
+httpd.x86_64                                2.2.15-60.el6.centos.6       updates$
+httpd-devel.i686                            2.2.15-60.el6.centos.6       updates$
+httpd-devel.x86_64                          2.2.15-60.el6.centos.6       updates$
+httpd-itk.x86_64                            2.2.22-7.el6                 epel   $
+httpd-manual.noarch                         2.2.15-60.el6.centos.6       updates$
+httpd-tools.x86_64                          2.2.15-60.el6.centos.6       updates$
+iipsrv-httpd-fcgi.noarch                    1.0.0-1.0.el6                epel   $
+libmicrohttpd.i686                          0.9.33-4.el6                 base   $
+libmicrohttpd.x86_64                        0.9.33-4.el6                 base   $
+libmicrohttpd-devel.i686                    0.9.33-4.el6                 base   $
+libmicrohttpd-devel.x86_64                  0.9.33-4.el6                 base   $
+libmicrohttpd-doc.noarch                    0.9.33-4.el6                 base   $
+lighttpd.x86_64                             1.4.45-1.el6                 epel   $
+lighttpd-fastcgi.x86_64                     1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_gssapi.x86_64            1.4.45-1.el6                 epel   $
+lighttpd-mod_authn_mysql.x86_64             1.4.45-1.el6                 epel   $
+lighttpd-mod_geoip.x86_64                   1.4.45-1.el6                 epel   $
+lighttpd-mod_mysql_vhost.x86_64             1.4.45-1.el6                 epel   $
+mirmon-httpd.noarch                         2.11-1.el6                   epel   $
+python-mozhttpd.noarch                      0-0.3.gitb077641.el6         epel   $
+python2-sphinxcontrib-httpdomain.noarch     1.5.0-3.el6                  epel   $
+sysusage-httpd.noarch                       5.5-3.el6                    epel   $
+viewvc-httpd.noarch                         1.1.26-1.el6                 epel   $
+web-assets-httpd.noarch                     5-2.el6                      epel   $
+^[]0;root@B14069:/inotify^G2018-01-15T15:22:36 root@B14069 /inotify# httpd -v$
+bash: httpd: command not found$
+^[]0;root@B14069:/inotify^G2018-01-15T15:22:44 root@B14069 /inotify# ^[[K2018-01-15T15:22:44 root@B14069 /inotify# ^[[K2018-01-15T15:22:44 root@B14069 /inotify# $
+^[]0;root@B14069:/inotify^G2018-01-16T14:09:40 root@B14069 /inotify# $
+^[]0;root@B14069:/inotify^G2018-01-16T14:09:40 root@B14069 /inotify# httpd -v^H^H^H^H^H^H^H^Hyum list | grep httpd^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[2P-y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hlist | grep httpd^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[2P-y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hlist | grep httpd^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[13Phttpd -v^H^H^H^H^H^H^H^H^[[K^G^G^Gcurl^H^[[K^H^[[K^H^[[K^H^[[Kifonfig$
+bash: ifonfig: command not found$
+^[]0;root@B14069:/inotify^G2018-01-16T14:10:07 root@B14069 /inotify# fi^H^[[K^H^[[Kifconfig$
+eth0      Link encap:Ethernet  HWaddr 02:42:AC:12:00:05  $
+          inet addr:172.18.0.5  Bcast:0.0.0.0  Mask:255.255.0.0$
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1$
+          RX packets:537868 errors:0 dropped:0 overruns:0 frame:0$
+          TX packets:351449 errors:0 dropped:0 overruns:0 carrier:0$
+          collisions:0 txqueuelen:0 $
+          RX bytes:233253006 (222.4 MiB)  TX bytes:69375523 (66.1 MiB)$
+$
+lo        Link encap:Local Loopback  $
+          inet addr:127.0.0.1  Mask:255.0.0.0$
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1$
+          RX packets:7574 errors:0 dropped:0 overruns:0 frame:0$
+          TX packets:7574 errors:0 dropped:0 overruns:0 carrier:0$
+          collisions:0 txqueuelen:1 $
+          RX bytes:513586 (501.5 KiB)  TX bytes:513586 (501.5 KiB)$
+$
+^[]0;root@B14069:/inotify^G2018-01-16T14:10:13 root@B14069 /inotify# httpd -v$
+bash: httpd: command not found$
+^[]0;root@B14069:/inotify^G2018-01-16T14:10:22 root@B14069 /inotify# yum -y install httpd$
+Loaded plugins: fastestmirror, ovl$
+Setting up Install Process$
+Loading mirror speeds from cached hostfile$
+epel/metalink                                                                                                                          | 7.4 kB     00:00     $
+ * base: download.nus.edu.sg$
+ * epel: mirrors.nipa.cloud$
+ * extras: download.nus.edu.sg$
+ * updates: mirror.nus.edu.sg$
+base                                                                                                                                   | 3.7 kB     00:00     $
+extras                                                                                                                                 | 3.4 kB     00:00     $
+mongodb-org-3.4                                                                                                                        | 2.5 kB     00:00     $
+nodesource                                                                                                                             | 2.5 kB     00:00     $
+updates                                                                                                                                | 3.4 kB     00:00     $
+Resolving Dependencies$
+--> Running transaction check$
+---> Package httpd.x86_64 0:2.2.15-60.el6.centos.6 will be installed$
+--> Processing Dependency: httpd-tools = 2.2.15-60.el6.centos.6 for package: httpd-2.2.15-60.el6.centos.6.x86_64$
+--> Running transaction check$
+---> Package httpd-tools.x86_64 0:2.2.15-60.el6.centos.6 will be installed$
+--> Finished Dependency Resolution$
+$
+Dependencies Resolved$
+$
+==============================================================================================================================================================$
+ Package                              Arch                            Version                                          Repository                        Size$
+==============================================================================================================================================================$
+Installing:$
+ httpd                                x86_64                          2.2.15-60.el6.centos.6                           updates                          836 k$
+Installing for dependencies:$
+ httpd-tools                          x86_64                          2.2.15-60.el6.centos.6                           updates                           80 k$
+$
+Transaction Summary$
+==============================================================================================================================================================$
+Install       2 Package(s)$
+$
+Total download size: 916 k$
+Installed size: 3.2 M$
+Downloading Packages:$
+http://mirror.nus.edu.sg/centos/6.9/updates/x86_64/Packages/httpd-2.2.15-60.el6.centos.6.x86_64.rpm: [Errno 12] Timeout on http://mirror.nus.edu.sg/centos/6.9/updates/x86_64/Packages/httpd-2.2.15-60.el6.centos.6.x86_64.rpm: (28, 'Operation too slow. Less than 1 bytes/sec transfered the last 30 seconds')$
+Trying other mirror.$
+(1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (12%) 13% [======-                                            ]  0.0 B/s | 114 kB     --:-- ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (30%) 33% [================-                                  ] 263 kB/s | 278 kB     00:02 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (54%) 59% [==============================                     ] 291 kB/s | 499 kB     00:01 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (81%) 89% [=============================================-     ] 323 kB/s | 749 kB     00:00 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                                                                                         | 836 kB     00:01     $
+(2/2): httpd-tools-2.2.15-60.el6.centos.6.x86_64.rpm                                                                                   |  80 kB     00:00     $
+--------------------------------------------------------------------------------------------------------------------------------------------------------------$
+Total                                                                                                                          28 kB/s | 916 kB     00:32     $
+Running rpm_check_debug$
+Running Transaction Test$
+Transaction Test Succeeded$
+Running Transaction$
+  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [################################                                                              ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###########################################                                                   ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [##################################################                                            ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [############################################################                                  ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###################################################################                           ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [######################################################################################        ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [########################################################################################      ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [##########################################################################################    ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###########################################################################################   ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [############################################################################################# ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  1/2 $
+  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [                                                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#                                                                                                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##                                                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###                                                                                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####                                                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####                                                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######                                                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######                                                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########                                                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########                                                                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########                                                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########                                                                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############                                                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############                                                                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############                                                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################                                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################                                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################                                                                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################                                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################                                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################                                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################                                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################                                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################                                                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################                                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################                                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################                                                                      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################                                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################################                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################################                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################################                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################################                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################                                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################################                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################                                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################################                                                      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################################                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################################################                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################################                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################                                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################################################################                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################################################################                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################################################################                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################################                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################################                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################################                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################################                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################################                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################################################                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################################################################################                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################################################################                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################################################################            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################################################           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################################################################################          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################################################         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################################################################################        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################################################       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################################################################################      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################################################     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################################################################################    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################################################   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################################################################  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################################################################################### ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        2/2 $
+  Verifying  : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Verifying  : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+$
+Installed:$
+  httpd.x86_64 0:2.2.15-60.el6.centos.6                                                                                                                       $
+$
+Dependency Installed:$
+  httpd-tools.x86_64 0:2.2.15-60.el6.centos.6                                                                                                                 $
+$
+Complete!$
+^[]0;root@B14069:/inotify^G2018-01-16T14:11:27 root@B14069 /inotify# h^H^[[K^Ghttpd -v$
+Server version: Apache/2.2.15 (Unix)$
+Server built:   Oct 19 2017 16:43:38$
+^[]0;root@B14069:/inotify^G2018-01-16T14:11:40 root@B14069 /inotify# h^H^[[Kservice httpd star^H^[[K^H^[[K^H^[[K^H^[[Kstart$
+Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 172.18.0.5 for ServerName$
+^[[60G[  OK  ]$
+^[]0;root@B14069:/inotify^G2018-01-16T14:11:57 root@B14069 /inotify# service httpd start^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[Kcurl 172.^H^[[K^H^[[K^H^[[K^H^[[K172.18.0.5:80$
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">$
+^I<head>$
+^I^I<title>Apache HTTP Server Test Page powered by CentOS</title>$
+^I^I<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />$
+^I^I<style type="text/css">$
+^I^I^Ibody {$
+^I^I^I^Ibackground-color: #fff;$
+^I^I^I^Icolor: #000;$
+^I^I^I^Ifont-size: 0.9em;$
+^I^I^I^Ifont-family: sans-serif,helvetica;$
+^I^I^I^Imargin: 0;$
+^I^I^I^Ipadding: 0;$
+^I^I^I}$
+^I^I^I:link {$
+^I^I^I^Icolor: #0000FF;$
+^I^I^I}$
+^I^I^I:visited {$
+^I^I^I^Icolor: #0000FF;$
+^I^I^I}$
+^I^I^Ia:hover {$
+^I^I^I^Icolor: #3399FF;$
+^I^I^I}$
+^I^I^Ih1 {$
+^I^I^I^Itext-align: center;$
+^I^I^I^Imargin: 0;$
+^I^I^I^Ipadding: 0.6em 2em 0.4em;$
+^I^I^I^Ibackground-color: #3399FF;$
+^I^I^I^Icolor: #ffffff;$
+^I^I^I^Ifont-weight: normal;$
+^I^I^I^Ifont-size: 1.75em;$
+^I^I^I^Iborder-bottom: 2px solid #000;$
+^I^I^I}$
+^I^I^Ih1 strong {$
+^I^I^I^Ifont-weight: bold;$
+^I^I^I}$
+^I^I^Ih2 {$
+^I^I^I^Ifont-size: 1.1em;$
+^I^I^I^Ifont-weight: bold;$
+^I^I^I}$
+^I^I^I.content {$
+^I^I^I^Ipadding: 1em 5em;$
+^I^I^I}$
+^I^I^I.content-columns {$
+^I^I^I^I/* Setting relative positioning allows for $
+^I^I^I^Iabsolute positioning for sub-classes */$
+^I^I^I^Iposition: relative;$
+^I^I^I^Ipadding-top: 1em;$
+^I^I^I}$
+^I^I^I.content-column-left {$
+^I^I^I^I/* Value for IE/Win; will be overwritten for other browsers */$
+^I^I^I^Iwidth: 47%;$
+^I^I^I^Ipadding-right: 3%;$
+^I^I^I^Ifloat: left;$
+^I^I^I^Ipadding-bottom: 2em;$
+^I^I^I}$
+^I^I^I.content-column-right {$
+^I^I^I^I/* Values for IE/Win; will be overwritten for other browsers */$
+^I^I^I^Iwidth: 47%;$
+^I^I^I^Ipadding-left: 3%;$
+^I^I^I^Ifloat: left;$
+^I^I^I^Ipadding-bottom: 2em;$
+^I^I^I}$
+^I^I^I.content-columns>.content-column-left, .content-columns>.content-column-right {$
+^I^I^I^I/* Non-IE/Win */$
+^I^I^I}$
+^I^I^Iimg {$
+^I^I^I^Iborder: 2px solid #fff;$
+^I^I^I^Ipadding: 2px;$
+^I^I^I^Imargin: 2px;$
+^I^I^I}$
+^I^I^Ia:hover img {$
+^I^I^I^Iborder: 2px solid #3399FF;$
+^I^I^I}$
+^I^I</style>$
+^I</head>$
+$
+^I<body>$
+^I<h1>Apache 2 Test Page<br><font size="-1"><strong>powered by</font> CentOS</strong></h1>$
+$
+^I^I<div class="content">$
+^I^I^I<div class="content-middle">$
+^I^I^I^I<p>This page is used to test the proper operation of the Apache HTTP server after it has been installed. If you can read this page it means that the Apache HTTP server installed at this site is working properly.</p>$
+^I^I^I</div>$
+<hr />$
+^I^I^I<div class="content-columns">$
+^I^I^I^I<div class="content-column-left">$
+^I^I^I^I^I<h2>If you are a member of the general public:</h2>$
+$
+^I^I^I^I^I<p>The fact that you are seeing this page indicates that the website you just visited is either experiencing problems or is undergoing routine maintenance.</p>$
+$
+^I^I^I^I^I<p>If you would like to let the administrators of this website know that you've seen this page instead of the page you expected, you should send them e-mail. In general, mail sent to the name "webmaster" and directed to the website's domain should reach the appropriate person.</p>$
+$
+^I^I^I^I^I<p>For example, if you experienced problems while visiting www.example.com, you should send e-mail to "webmaster@example.com".</p>$
+^I^I^I^I</div>$
+$
+^I^I^I^I<div class="content-column-right">$
+^I^I^I^I^I<h2>If you are the website administrator:</h2>$
+$
+^I^I^I^I^I<p>You may now add content to the directory <tt>/var/www/html/</tt>. Note that until you do so, people visiting your website will see this page and not your content. To prevent this page from ever being used, follow the instructions in the file <tt>/etc/httpd/conf.d/welcome.conf</tt>.</p>$
+$
+^I^I^I^I^I^I<p>You are free to use the images below on Apache and CentOS Linux powered HTTP servers.  Thanks for using Apache and CentOS!</p>$
+$
+^I^I^I^I^I^I<p><a href="http://httpd.apache.org/"><img src="/icons/apache_pb.gif" alt="[ Powered by Apache ]"/></a> <a href="http://www.centos.org/"><img src="/icons/poweredby.png" alt="[ Powered by CentOS Linux ]" width="88" height="31" /></a></p>$
+^I^I^I^I</div>$
+^I^I^I</div>$
+                </div>$
+                <div class="content">$
+<div class="content-middle"><h2>About CentOS:</h2><b>The Community ENTerprise Operating System</b> (CentOS) Linux is a community-supported enterprise distribution derived from sources freely provided to the public by Red Hat. As such, CentOS Linux aims to be functionally compatible with Red Hat Enterprise Linux. The CentOS Project is the organization that builds CentOS. We mainly change packages to remove upstream vendor branding and artwork.</p> <p>For information on CentOS please visit the <a href="http://www.centos.org/">CentOS website</a>.</p>$
+<p><h2>Note:</h2><p>CentOS is an Operating System and it is used to power this website; however, the webserver is owned by the domain owner and not the CentOS Project.  <b>If you have issues with the content of this site, contact the owner of the domain, not the CentOS Project.</b> <p>Unless this server is on the <b>centos.org</b> domain, the CentOS Project doesn't have anything to do with the content on this webserver or any e-mails that directed you to this site.</p> <p>For example, if this website is www.example.com, you would find the owner of the example.com domain at the following WHOIS server:</p> <p><a href="http://www.internic.net/whois.html">http://www.internic.net/whois.html</a></p>$
+                        </div>$
+^I^I</div>$
+</body>$
+</html>$
+^[]0;root@B14069:/inotify^G2018-01-16T14:14:15 root@B14069 /inotify# service httpd stop$
+Stopping httpd: ^[[60G[FAILED]$
+^[]0;root@B14069:/inotify^G2018-01-16T14:14:51 root@B14069 /inotify# service httpd stop$
+Stopping httpd: ^[[60G[  OK  ]$
+^[]0;root@B14069:/inotify^G2018-01-16T14:14:56 root@B14069 /inotify# curl 172.18^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K172.18.0.5:80$
+curl: (7) couldn't connect to host$
+^[]0;root@B14069:/inotify^G2018-01-16T14:15:34 root@B14069 /inotify# cat /va^H^[[K^H^[[Ketc/httpd/logs/access_log $
+172.18.0.5 - - [19/Dec/2017:12:46:29 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.5 - - [19/Dec/2017:12:47:36 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [19/Dec/2017:12:47:50 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [19/Dec/2017:12:47:50 +0900] "GET /icons/apache_pb.gif HTTP/1.1" 200 2326 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [19/Dec/2017:12:47:50 +0900] "GET /icons/poweredby.png HTTP/1.1" 200 3956 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.5 - - [19/Dec/2017:13:29:42 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [20/Dec/2017:18:05:46 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [20/Dec/2017:18:05:46 +0900] "GET /icons/poweredby.png HTTP/1.1" 200 3956 "http://192.168.129.40/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [20/Dec/2017:18:05:46 +0900] "GET /icons/apache_pb.gif HTTP/1.1" 200 2326 "http://192.168.129.40/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [20/Dec/2017:18:05:46 +0900] "GET /favicon.ico HTTP/1.1" 404 289 "http://192.168.129.40/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36"$
+172.18.0.1 - - [11/Jan/2018:02:54:48 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [11/Jan/2018:02:54:48 +0900] "GET /icons/apache_pb.gif HTTP/1.1" 200 2326 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [11/Jan/2018:02:54:48 +0900] "GET /icons/poweredby.png HTTP/1.1" 200 3956 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [11/Jan/2018:02:54:48 +0900] "GET /favicon.ico HTTP/1.1" 404 284 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [14/Jan/2018:12:04:46 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [14/Jan/2018:12:04:46 +0900] "GET /icons/apache_pb.gif HTTP/1.1" 200 2326 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [14/Jan/2018:12:04:46 +0900] "GET /icons/poweredby.png HTTP/1.1" 200 3956 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.5 - - [15/Jan/2018:03:19:13 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.5 - - [15/Jan/2018:03:33:45 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.5 - - [15/Jan/2018:06:14:16 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [15/Jan/2018:09:43:34 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.5 - - [15/Jan/2018:09:47:18 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [15/Jan/2018:09:52:15 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:52:31 +0900] "GET /test.php HTTP/1.1" 200 19 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:55:55 +0900] "GET /info.php HTTP/1.1" 404 281 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:56:04 +0900] "GET /test.php HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:56:49 +0900] "GET /test.php HTTP/1.1" 200 22 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:57:17 +0900] "GET /test.php HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:09:57:19 +0900] "GET /test.php HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.5 - - [15/Jan/2018:09:59:19 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.5 - - [15/Jan/2018:09:59:26 +0900] "GET /test.php HTTP/1.1" 200 20 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [15/Jan/2018:10:11:20 +0900] "GET /test.php HTTP/1.1" 200 20 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:24 +0900] "GET /test.php HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:27 +0900] "GET / HTTP/1.1" 200 1127 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:27 +0900] "GET /icons/blank.gif HTTP/1.1" 200 148 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:27 +0900] "GET /icons/unknown.gif HTTP/1.1" 200 245 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:46 +0900] "GET / HTTP/1.1" 200 1127 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:55 +0900] "GET / HTTP/1.1" 200 1127 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:57 +0900] "GET /?C=N;O=D HTTP/1.1" 200 1127 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:58 +0900] "GET /?C=M;O=A HTTP/1.1" 200 1127 "http://localhost/?C=N;O=D" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:58 +0900] "GET /?C=D;O=A HTTP/1.1" 200 1127 "http://localhost/?C=M;O=A" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:11:59 +0900] "GET /work4.php HTTP/1.1" 200 9 "http://localhost/?C=D;O=A" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.5 - - [15/Jan/2018:10:17:06 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+172.18.0.1 - - [15/Jan/2018:10:26:40 +0900] "GET / HTTP/1.1" 403 4961 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:26:45 +0900] "GET /test.php HTTP/1.1" 200 45626 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:26:45 +0900] "GET /test.php?=PHPE9568F34-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 2524 "http://localhost/test.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.1 - - [15/Jan/2018:10:26:45 +0900] "GET /test.php?=PHPE9568F35-D428-11d2-A769-00AA001ACF42 HTTP/1.1" 200 2146 "http://localhost/test.php" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36"$
+172.18.0.5 - - [16/Jan/2018:14:14:15 +0900] "GET / HTTP/1.1" 403 4961 "-" "curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.27.1 zlib/1.2.3 libidn/1.18 libssh2/1.4.2"$
+^[]0;root@B14069:/inotify^G2018-01-16T14:16:08 root@B14069 /inotify# yum -y ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^Gyum -y erase httpd ^H^[[K*$
+Loaded plugins: fastestmirror, ovl$
+Setting up Remove Process$
+Resolving Dependencies$
+--> Running transaction check$
+---> Package httpd.x86_64 0:2.2.15-60.el6.centos.6 will be erased$
+---> Package httpd-tools.x86_64 0:2.2.15-60.el6.centos.6 will be erased$
+--> Finished Dependency Resolution$
+$
+Dependencies Resolved$
+$
+==============================================================================================================================================================$
+ Package                              Arch                            Version                                         Repository                         Size$
+==============================================================================================================================================================$
+Removing:$
+ httpd                                x86_64                          2.2.15-60.el6.centos.6                          @updates                          3.0 M$
+ httpd-tools                          x86_64                          2.2.15-60.el6.centos.6                          @updates                          138 k$
+$
+Transaction Summary$
+==============================================================================================================================================================$
+Remove        2 Package(s)$
+$
+Installed size: 3.2 M$
+Downloading Packages:$
+Running rpm_check_debug$
+Running Transaction Test$
+Transaction Test Succeeded$
+Running Transaction$
+  Erasing    : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Erasing    : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+  Verifying  : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Verifying  : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+$
+Removed:$
+  httpd.x86_64 0:2.2.15-60.el6.centos.6                                      httpd-tools.x86_64 0:2.2.15-60.el6.centos.6                                     $
+$
+Complete!$
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:22 root@B14069 /inotify# httpd-^H^[[K -v$
+bash: /usr/sbin/httpd: No such file or directory$
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:32 root@B14069 /inotify# $
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:35 root@B14069 /inotify# $
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:35 root@B14069 /inotify# httpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*$
+Loaded plugins: fastestmirror, ovl$
+Setting up Remove Process$
+No Match for argument: httpd*$
+Loading mirror speeds from cached hostfile$
+ * base: mirror.nus.edu.sg$
+ * epel: mirrors.nipa.cloud$
+ * extras: mirror.nus.edu.sg$
+ * updates: mirror.nus.edu.sg$
+Package(s) httpd*^[(B available, but not installed.$
+No Packages marked for removal$
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:45 root@B14069 /inotify# yum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v$
+bash: /usr/sbin/httpd: No such file or directory$
+^[]0;root@B14069:/inotify^G2018-01-16T14:17:48 root@B14069 /inotify# httpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^Hyum -y erase httpd*^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[11Phttpd -v^H^H^H^H^H^H^H^H^[[K^Gls$
+a.js  inotify.js  log  node_modules  package.json  package-lock.json  shellscript$
+^[]0;root@B14069:/inotify^G2018-01-16T14:21:07 root@B14069 /inotify# vi^H^[[K^H^[[Kvim ^H^[[K^H^[[K^H^[[K^H^[[Kvim /var/log^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Ketc/httpd/lo^Ggs/ac^G^H^[[K^Gcce^G^H^[[K^H^[[K^H^[[Kce^H^[[Kce^G^G^G^H^[[K^H^[[K^H^[[K^H^[[Kaccess_lo^Gg^H^[[K^H^[[K^H^[[K^H^[[K_log$
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"/etc/httpd/logs/access_log" [New DIRECTORY]^[[>c^[[2;1H~                                                                                                                                                             ^[[3;1H~                                                                                                                                                             ^[[4;1H~                                                                                                                                                             ^[[5;1H~                                                                                                                                                             ^[[6;1H~                                                                                                                                                             ^[[7;1H~                                                                                                                                                             ^[[8;1H~                                                                                                                                                             ^[[9;1H~                                                                                                                                                             ^[[10;1H~                                                                                                                                                             ^[[11;1H~                                                                                                                                                             ^[[12;1H~                                                                                                                                                             ^[[13;1H~                                                                                                                                                             ^[[14;1H~                                                                                                                                                             ^[[15;1H~                                                                                                                                                             ^[[16;1H~                                                                                                                                                             ^[[17;1H~                                                                                                                                                             ^[[18;1H~                                                                                                                                                             ^[[19;1H~                                                                                                                                                             ^[[20;1H~                                                                                                                                                             ^[[21;1H~                                                                                                                                                             ^[[22;1H~                                                                                                                                                             ^[[23;1H~                                                                                                                                                             ^[[24;1H~                                                                                                                                                             ^[[25;1H~                                                                                                                                                             ^[[26;1H~                                                                                                                                                             ^[[27;1H~                                                                                                                                                             ^[[28;1H~                                                                                                                                                             ^[[29;1H~                                                                                                                                                             ^[[30;1H~                                                                                                                                                             ^[[31;1H~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[?25l^[[44;1H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"/etc/httpd/logs/access_log"$
+"/etc/httpd/logs/access_log" E212: Can't open file for writing$
+Press ENTER or type command to continue^[[?12l^[[?25h^[[1;1H^[[2L^[[?25l^[[2;1H~                                                                                                                                                             ^[[44;1H^[[K^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[44;1H^[[44;141H^[[K^[[44;1H^[[?1l^[>^[[?1049l^[]0;root@B14069:/inotify^G2018-01-16T14:22:04 root@B14069 /inotify# /^H^[[Kvim /etc/httpd/log^G^H^[[K^H^[[K^H^[[K^H^[[K/^H^[[K/conf/httpd.conf.rpmsave ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K$
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"/etc/httpd/" Illegal file name^[[>c^[[2;1H~                                                                                                                                                             ^[[3;1H~                                                                                                                                                             ^[[4;1H~                                                                                                                                                             ^[[5;1H~                                                                                                                                                             ^[[6;1H~                                                                                                                                                             ^[[7;1H~                                                                                                                                                             ^[[8;1H~                                                                                                                                                             ^[[9;1H~                                                                                                                                                             ^[[10;1H~                                                                                                                                                             ^[[11;1H~                                                                                                                                                             ^[[12;1H~                                                                                                                                                             ^[[13;1H~                                                                                                                                                             ^[[14;1H~                                                                                                                                                             ^[[15;1H~                                                                                                                                                             ^[[16;1H~                                                                                                                                                             ^[[17;1H~                                                                                                                                                             ^[[18;1H~                                                                                                                                                             ^[[19;1H~                                                                                                                                                             ^[[20;1H~                                                                                                                                                             ^[[21;1H~                                                                                                                                                             ^[[22;1H~                                                                                                                                                             ^[[23;1H~                                                                                                                                                             ^[[24;1H~                                                                                                                                                             ^[[25;1H~                                                                                                                                                             ^[[26;1H~                                                                                                                                                             ^[[27;1H~                                                                                                                                                             ^[[28;1H~                                                                                                                                                             ^[[29;1H~                                                                                                                                                             ^[[30;1H~                                                                                                                                                             ^[[31;1H~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[44;1H^[[44;1H^[[K^[[44;1H^[[?1l^[>^[[?1049l^[]0;root@B14069:/inotify^G2018-01-16T14:22:29 root@B14069 /inotify# Z^Hvim /etc/httpd/^H^[[K/conf/httpd.conf.rpmsave ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Klogs/a^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^G^Gcd /$
+^[]0;root@B14069:/^G2018-01-16T14:23:20 root@B14069 /# vim /etc/httpd/conf/httpd.conf.rpmsave ^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^Gls$
+bin   dev  git   inotify  lib64       media  node_modules  package-lock.json  root  selinux  sys  usr$
+boot  etc  home  lib      lost+found  mnt    opt           proc               sbin  srv      tmp  var$
+^[]0;root@B14069:/^G2018-01-16T14:23:29 root@B14069 /# cd etc/$
+^[]0;root@B14069:/etc^G2018-01-16T14:23:31 root@B14069 /etc# ls$
+a                  depmod.d                 gshadow      krb5.conf      motd            popt.d          rc.local        shells              udev$
+adjtime            dhcp                     gshadow-     ld.so.cache    mtab            ppp             rc.sysinit      skel                vimrc$
+adjtime.rpmsave    DIR_COLORS               host.conf    ld.so.conf     NetworkManager  prelink.conf.d  redhat-release  ssh                 virc$
+aliases            DIR_COLORS.256color      hostname     ld.so.conf.d   networks        printcap        resolv.conf     ssl                 X11$
+alternatives       DIR_COLORS.lightbgcolor  hosts        libaudit.conf  nsswitch.conf   profile         rpc             statetab            xdg$
+bash_completion.d  environment              hosts.allow  libuser.conf   openldap        profile.d       rpm             statetab.d          xinetd.d$
+bashrc             ethers                   hosts.deny   localtime      opt             protocols       rwtab           sudo.conf           yum$
+blkid              exports                  httpd        localtime.org  pam.d           rc              rwtab.d         sudoers             yum.conf$
+BUILDTIME          favicon.png              init         login.defs     passwd          rc0.d           sasl2           sudoers.d           yum.repos.d$
+centos-release     filesystems              init.conf    logrotate.d    passwd-         rc1.d           securetty       sudo-ldap.conf$
+chkconfig.d        fstab                    init.d       magic          php.d           rc2.d           security        sysconfig$
+crypttab           gai.conf                 inittab      mailcap        php.ini         rc3.d           selinux         sysctl.conf$
+csh.cshrc          gcrypt                   inputrc      makedev.d      pkcs11          rc4.d           services        sysctl.d$
+csh.login          gnupg                    iproute2     mime.types     pki             rc5.d           sestatus.conf   system-release$
+dbus-1             group                    issue        modprobe.d     plymouth        rc6.d           shadow          system-release-cpe$
+default            group-                   issue.net    mongod.conf    pm              rc.d            shadow-         terminfo$
+^[]0;root@B14069:/etc^G2018-01-16T14:23:32 root@B14069 /etc# cd httpd/$
+^[]0;root@B14069:/etc/httpd^G2018-01-16T14:23:43 root@B14069 /etc/httpd# ls$
+conf$
+^[]0;root@B14069:/etc/httpd^G2018-01-16T14:23:43 root@B14069 /etc/httpd# cd ^H^[[K^H^[[K^H^[[K^Gcd /$
+^[]0;root@B14069:/^G2018-01-16T14:23:59 root@B14069 /# c^H^[[K^Gservice httpd start$
+httpd: unrecognized service$
+^[]0;root@B14069:/^G2018-01-16T14:24:26 root@B14069 /# service httpd start^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[Kservice httpd start^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hcd /^[[K^H^H^H^H^[[2Plsd^H^H^Hcd httpd/^H^H^H^H^H^H^H^H^Hls^[[K^H^Hcd etc/^H^H^H^H^H^H^Hls^[[K^H^Hcd /^H^H^H^Hvim /etc/httpd/logs/access_log$
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"/etc/httpd/logs/access_log" [New DIRECTORY]^[[>c^[[2;1H~                                                                                                                                                             ^[[3;1H~                                                                                                                                                             ^[[4;1H~                                                                                                                                                             ^[[5;1H~                                                                                                                                                             ^[[6;1H~                                                                                                                                                             ^[[7;1H~                                                                                                                                                             ^[[8;1H~                                                                                                                                                             ^[[9;1H~                                                                                                                                                             ^[[10;1H~                                                                                                                                                             ^[[11;1H~                                                                                                                                                             ^[[12;1H~                                                                                                                                                             ^[[13;1H~                                                                                                                                                             ^[[14;1H~                                                                                                                                                             ^[[15;1H~                                                                                                                                                             ^[[16;1H~                                                                                                                                                             ^[[17;1H~                                                                                                                                                             ^[[18;1H~                                                                                                                                                             ^[[19;1H~                                                                                                                                                             ^[[20;1H~                                                                                                                                                             ^[[21;1H~                                                                                                                                                             ^[[22;1H~                                                                                                                                                             ^[[23;1H~                                                                                                                                                             ^[[24;1H~                                                                                                                                                             ^[[25;1H~                                                                                                                                                             ^[[26;1H~                                                                                                                                                             ^[[27;1H~                                                                                                                                                             ^[[28;1H~                                                                                                                                                             ^[[29;1H~                                                                                                                                                             ^[[30;1H~                                                                                                                                                             ^[[31;1H~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[?25l^[[44;1H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"/etc/httpd/logs/access_log"$
+"/etc/httpd/logs/access_log" E212: Can't open file for writing$
+Press ENTER or type command to continue^[[?12l^[[?25h^[[1;1H^[[2L^[[?25l^[[2;1H~                                                                                                                                                             ^[[44;1H^[[K^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[44;1H^[[44;141H^[[K^[[44;1H^[[?1l^[>^[[?1049l^[]0;root@B14069:/^G2018-01-16T14:24:46 root@B14069 /# vim /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[1P /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[1P /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[1P /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hc /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Ha /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Ht /etc/httpd/logs/access_log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H$
+cat: /etc/httpd/logs/access_log: No such file or directory$
+^[]0;root@B14069:/^G2018-01-16T14:24:52 root@B14069 /# service httpd start$
+httpd: unrecognized service$
+^[]0;root@B14069:/^G2018-01-16T14:41:50 root@B14069 /# yum -u ^H^[[K^H^[[Ky install httpd$
+Loaded plugins: fastestmirror, ovl$
+Setting up Install Process$
+Loading mirror speeds from cached hostfile$
+ * base: mirror.nus.edu.sg$
+ * epel: kartolo.sby.datautama.net.id$
+ * extras: mirror.nus.edu.sg$
+ * updates: mirror.nus.edu.sg$
+Resolving Dependencies$
+--> Running transaction check$
+---> Package httpd.x86_64 0:2.2.15-60.el6.centos.6 will be installed$
+--> Processing Dependency: httpd-tools = 2.2.15-60.el6.centos.6 for package: httpd-2.2.15-60.el6.centos.6.x86_64$
+--> Running transaction check$
+---> Package httpd-tools.x86_64 0:2.2.15-60.el6.centos.6 will be installed$
+--> Finished Dependency Resolution$
+$
+Dependencies Resolved$
+$
+==============================================================================================================================================================$
+ Package                              Arch                            Version                                          Repository                        Size$
+==============================================================================================================================================================$
+Installing:$
+ httpd                                x86_64                          2.2.15-60.el6.centos.6                           updates                          836 k$
+Installing for dependencies:$
+ httpd-tools                          x86_64                          2.2.15-60.el6.centos.6                           updates                           80 k$
+$
+Transaction Summary$
+==============================================================================================================================================================$
+Install       2 Package(s)$
+$
+Total download size: 916 k$
+Installed size: 3.2 M$
+Downloading Packages:$
+http://mirror.nus.edu.sg/centos/6.9/updates/x86_64/Packages/httpd-2.2.15-60.el6.centos.6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 849197 bytes remaining to read"$
+Trying other mirror.$
+(1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (12%) 13% [======-                                            ]  0.0 B/s | 113 kB     --:-- ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (34%) 37% [===================                                ] 288 kB/s | 315 kB     00:01 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (60%) 66% [==================================                 ] 318 kB/s | 558 kB     00:00 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                (88%) 96% [=================================================  ] 349 kB/s | 810 kB     00:00 ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                                                                                         | 836 kB     00:01     $
+http://mirror.vodien.com/centos/6.9/updates/x86_64/Packages/httpd-2.2.15-60.el6.centos.6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=updates clean metadata$
+Trying other mirror.$
+(1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm               (169%) 85% [===========================================-       ]  0.0 B/s | 718 kB     --:-- ETA (1/2): httpd-2.2.15-60.el6.centos.6.x86_64.rpm                                                                                         | 836 kB     00:00     $
+(2/2): httpd-tools-2.2.15-60.el6.centos.6.x86_64.rpm                                                                                   |  80 kB     00:00     $
+--------------------------------------------------------------------------------------------------------------------------------------------------------------$
+Total                                                                                                                         351 kB/s | 916 kB     00:02     $
+Running rpm_check_debug$
+Running Transaction Test$
+Transaction Test Succeeded$
+Running Transaction$
+  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [################################                                                              ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###########################################                                                   ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [##################################################                                            ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [############################################################                                  ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###################################################################                           ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [######################################################################################        ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [########################################################################################      ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [##########################################################################################    ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [###########################################################################################   ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64 [############################################################################################# ] 1/2  Installing : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  1/2 $
+  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [                                                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#                                                                                                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##                                                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###                                                                                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####                                                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####                                                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######                                                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######                                                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########                                                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########                                                                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########                                                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########                                                                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############                                                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############                                                                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############                                                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################                                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################                                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################                                                                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################                                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################                                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################                                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################                                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################                                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################                                                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################                                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################                                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################                                                                      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################                                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################                                                                    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################                                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################                                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################################                                                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################################                                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################################                                                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################                                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################################                                                          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################                                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################################                                                        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################                                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################################                                                      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################                                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################                                                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################################                                                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [######################################################                                              ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################################                                            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################                                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################                                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################                                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################                                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################                                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################################################################                                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#####################################################################                               ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#######################################################################                             ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################################                           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################################                         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################################                       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################################                     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################################                   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################################################                  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###################################################################################                 ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [####################################################################################                ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [########################################################################################            ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#########################################################################################           ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##########################################################################################          ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###########################################################################################         ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [############################################################################################        ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#############################################################################################       ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##############################################################################################      ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [###############################################################################################     ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################################################################################    ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [#################################################################################################   ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [##################################################################################################  ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64 [################################################################################################### ] 2/2  Installing : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        2/2 $
+  Verifying  : httpd-2.2.15-60.el6.centos.6.x86_64                                                                                                        1/2 $
+  Verifying  : httpd-tools-2.2.15-60.el6.centos.6.x86_64                                                                                                  2/2 $
+$
+Installed:$
+  httpd.x86_64 0:2.2.15-60.el6.centos.6                                                                                                                       $
+$
+Dependency Installed:$
+  httpd-tools.x86_64 0:2.2.15-60.el6.centos.6                                                                                                                 $
+$
+Complete!$
+^[]0;root@B14069:/^G2018-01-16T15:33:42 root@B14069 /# s^H^[[K^Gls$
+bin   dev  git   inotify  lib64       media  node_modules  package-lock.json  root  selinux  sys  usr$
+boot  etc  home  lib      lost+found  mnt    opt           proc               sbin  srv      tmp  var$
+^[]0;root@B14069:/^G2018-01-16T15:36:02 root@B14069 /# cd inotify/$
+^[]0;root@B14069:/inotify^G2018-01-16T15:36:06 root@B14069 /inotify# ^G^G^G^Gcd /$
+^[]0;root@B14069:/^G2018-01-16T15:36:09 root@B14069 /# scir^H^[[K^H^[[K^H^[[K^H^[[Kexit$
+exit$
+$
+Script done on Tue 16 Jan 2018 03:36:15 PM JST$
