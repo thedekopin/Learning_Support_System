@@ -1,0 +1,11 @@
+197:fcf23afbb4c5fbd77db45f6eddc86d4a0c92c37a
+32
+0
+1
+mbr: php,x86_64,0,5.3.3,49.el6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False

@@ -1,0 +1,26 @@
+193:ea836e0cd90cf98d9dd3d0635927db5b0f8eefa6
+32
+6
+base:6706:1490724196
+epel:12449:1515888017
+extras:47:1513264662
+mongodb-org-3.4:55:1508956264
+nodesource:75:1514956736
+updates:858:1515428493
+2
+mbr: httpd,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: httpd-tools,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a

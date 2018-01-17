@@ -1,0 +1,27 @@
+197:45deea43b343365f242a26829d4b779cea6e5955
+32
+0
+3
+mbr: httpd,x86_64,0,2.2.15,60.el6.centos.6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: php,x86_64,0,5.3.3,49.el6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: True
+  reason: user
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@i:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@i
+mbr: httpd-tools,x86_64,0,2.2.15,60.el6.centos.6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False

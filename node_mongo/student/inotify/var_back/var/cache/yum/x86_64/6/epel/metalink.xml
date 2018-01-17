@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metalink version="3.0" xmlns="http://www.metalinker.org/" type="dynamic" pubdate="Wed, 17 Jan 2018 00:12:12 GMT" generator="mirrormanager" xmlns:mm0="http://fedorahosted.org/mirrormanager">
+  <files>
+    <file name="repomd.xml">
+      <mm0:timestamp>1515888245</mm0:timestamp>
+      <size>4850</size>
+      <verification>
+        <hash type="md5">38fc93273a1a01a96a7772942c098c8f</hash>
+        <hash type="sha1">ddce74535221187acc93285d94f7b86fcfd0cca2</hash>
+        <hash type="sha256">8ae331b840ed40d865dd84210d853fecb80223012d376973a75925a741460eff</hash>
+        <hash type="sha512">b5e810dda73190098ef079a66314fe33e89d19563ca8591a6c1a90765ce95ed20e7513f5acd09b44efaf32eeb8630d4892e91ae1cc73d285dd1f63f8a74f62e6</hash>
+      </verification>
+      <resources maxconnections="1">
+        <url protocol="http" type="http" location="JP" preference="100" >http://ftp.jaist.ac.jp/pub/Linux/Fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="JP" preference="100" >rsync://ftp.jaist.ac.jp/pub/Linux/Fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="JP" preference="99" >http://ftp.riken.jp/Linux/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="JP" preference="99" >rsync://ftp.riken.jp/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="JP" preference="98" >http://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="JP" preference="98" >https://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="JP" preference="98" >rsync://ftp.yz.yamagata-u.ac.jp/pub/linux/fedora-projects/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="JP" preference="97" >http://mirror.dmmlabs.jp/linux/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="PH" preference="96" >http://mirror.pregi.net/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="PH" preference="96" >https://mirror.pregi.net/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="CN" preference="95" >https://mirrors.tongji.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="CN" preference="95" >http://mirrors.tongji.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="TH" preference="94" >http://mirrors.nipa.cloud/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="TH" preference="94" >rsync://mirrors.nipa.cloud/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="ID" preference="93" >rsync://kartolo.sby.datautama.net.id/EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="ID" preference="93" >http://kartolo.sby.datautama.net.id/EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="TH" preference="92" >rsync://mirror2.totbb.net/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="TH" preference="92" >http://mirror2.totbb.net/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="ID" preference="91" >http://epel.mirror.angkasa.id/pub/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="ID" preference="91" >https://epel.mirror.angkasa.id/pub/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="ID" preference="91" >rsync://epel.mirror.angkasa.id/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="HK" preference="90" >http://ftp.cuhk.edu.hk/pub/linux/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="TW" preference="89" >http://ftp.yzu.edu.tw/Linux/Fedora-EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="TW" preference="89" >rsync://ftp.yzu.edu.tw/Linux/Fedora-EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="TW" preference="89" >https://ftp.yzu.edu.tw/Linux/Fedora-EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="TW" preference="88" >http://mirror01.idc.hinet.net/EPEL/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="CN" preference="87" >http://mirrors.ustc.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="CN" preference="87" >rsync://rsync.mirrors.ustc.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="CN" preference="87" >https://mirrors.ustc.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="ID" preference="86" >http://repo.ugm.ac.id/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="ID" preference="86" >rsync://repo.ugm.ac.id/all/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="TH" preference="85" >rsync://mirror1.ku.ac.th/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="TH" preference="85" >http://mirror1.ku.ac.th/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="ID" preference="84" >http://mirror.nes.co.id/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="CN" preference="83" >http://mirror.lzu.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="CN" preference="83" >https://mirror.lzu.edu.cn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="CN" preference="82" >http://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="CN" preference="82" >rsync://mirrors.ustc.edu.cn/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="https" type="https" location="CN" preference="82" >https://mirrors.ustc.edu.cn/fedora/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="CN" preference="81" >rsync://mirrors.sohu.com/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="CN" preference="81" >http://mirrors.sohu.com/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="IQ" preference="80" >http://epel.scopesky.iq/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="PH" preference="79" >http://mirror.rise.ph/fedora-epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="rsync" type="rsync" location="VN" preference="78" >rsync://mirror.vinahost.vn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="VN" preference="78" >http://mirror.vinahost.vn/epel/6/x86_64/repodata/repomd.xml</url>
+        <url protocol="http" type="http" location="VN" preference="77" >http://mirror.ehost.vn/epel/6/x86_64/repodata/repomd.xml</url>
+      </resources>
+    </file>
+  </files>
+</metalink>

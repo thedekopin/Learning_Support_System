@@ -1,0 +1,43 @@
+181:b7c42320f4bb1eb33a9124ced2c9ab4367fbdc86
+32
+5
+base:6706:1490724196
+epel:12444:1513553937
+extras:47:1513264662
+nodesource:72:1512760150
+updates:834:1512574283
+4
+mbr: php,x86_64,0,5.3.3,49.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libedit,x86_64,0,2.11,4.20080712cvs.1.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php-cli,x86_64,0,5.3.3,49.el6@a:dependson
+  depends_on: php-cli,x86_64,0,5.3.3,49.el6@a
+mbr: php-cli,x86_64,0,5.3.3,49.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.3,49.el6@a:dependson
+  depends_on: php,x86_64,0,5.3.3,49.el6@a
+mbr: php-common,x86_64,0,5.3.3,49.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: php,x86_64,0,5.3.3,49.el6@a:dependson php-cli,x86_64,0,5.3.3,49.el6@a:dependson
+  depends_on: php,x86_64,0,5.3.3,49.el6@a

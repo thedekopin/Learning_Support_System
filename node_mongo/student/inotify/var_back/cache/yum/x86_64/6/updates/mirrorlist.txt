@@ -1,0 +1,10 @@
+http://ftp.riken.jp/Linux/centos/6.9/updates/x86_64/
+http://ftp.tsukuba.wide.ad.jp/Linux/centos/6.9/updates/x86_64/
+http://ftp.jaist.ac.jp/pub/Linux/CentOS/6.9/updates/x86_64/
+http://mirror.fairway.ne.jp/centos/6.9/updates/x86_64/
+http://ftp.iij.ad.jp/pub/linux/centos/6.9/updates/x86_64/
+http://ftp.yz.yamagata-u.ac.jp/pub/linux/centos/6.9/updates/x86_64/
+http://www.ftp.ne.jp/Linux/packages/CentOS/6.9/updates/x86_64/
+http://mirror.vodien.com/centos/6.9/updates/x86_64/
+http://mirror.nus.edu.sg/centos/6.9/updates/x86_64/
+http://mirror.0x.sg/centos/6.9/updates/x86_64/

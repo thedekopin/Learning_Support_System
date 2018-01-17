@@ -6,15 +6,16 @@ monitor_dir=("etc" "var")
 current_dir=`pwd`
 
 #ディレクトリの有無を確認 なければ作成
-if [ ! -d git ];then
- mkdir git
+cd /
+if [ ! -d /git ]; then
+    mkdir git
 fi
-cd /git
+cd git
 
 #監視しているディレクトリをコピー
 for d in ${monitor_dir[@]}; do
- cp -rp /${d} .
- cp -rp ${d}/ ${d}"_back"  
+ cp -rf /${d} .
+ cp -rf ${d}/ ${d}"_back"  
 done
 
 #取得するログを格納するディレクトリ

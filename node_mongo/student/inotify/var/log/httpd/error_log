@@ -1,0 +1,7 @@
+[Wed Jan 17 12:09:45 2018] [notice] suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Wed Jan 17 12:09:45 2018] [notice] Digest: generating secret for digest authentication ...
+[Wed Jan 17 12:09:45 2018] [notice] Digest: done
+[Wed Jan 17 12:09:45 2018] [notice] Apache/2.2.15 (Unix) DAV/2 PHP/5.3.3 configured -- resuming normal operations
+[Wed Jan 17 12:09:52 2018] [error] [client 172.18.0.1] Directory index forbidden by Options directive: /var/www/html/
+[Wed Jan 17 12:09:56 2018] [error] [client 172.18.0.1] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Tokyo' for 'JST/9.0/no DST' instead in /var/www/html/test.php on line 2
+[Wed Jan 17 12:13:50 2018] [error] [client 172.18.0.4] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Asia/Tokyo' for 'JST/9.0/no DST' instead in /var/www/html/test.php on line 2

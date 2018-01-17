@@ -1,0 +1,16 @@
+174:7fd0dcba116f39fa8222d94963d19b08244945d7
+32
+5
+base:6706:1490724196
+epel:12444:1513553937
+extras:47:1513264662
+nodesource:72:1512760150
+updates:834:1512574283
+1
+mbr: sudo,x86_64,0,1.8.6p3,29.el6_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

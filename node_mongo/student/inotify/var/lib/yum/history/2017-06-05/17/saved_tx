@@ -1,0 +1,53 @@
+189:6cd506c230297a243d1a8394c810ab5e451faeb6
+32
+6
+base:6706:1490724196
+epel:12447:1514409948
+extras:47:1513264662
+mongodb-org-3.4:55:1508956264
+nodesource:72:1512760150
+updates:834:1512574283
+5
+mbr: mongodb-org,x86_64,0,3.4.10,1.el6 70
+  repo: mongodb-org-3.4
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: mongodb-org-server,x86_64,0,3.4.10,1.el6 70
+  repo: mongodb-org-3.4
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb-org,x86_64,0,3.4.10,1.el6@a:dependson
+  depends_on: mongodb-org,x86_64,0,3.4.10,1.el6@a
+mbr: mongodb-org-tools,x86_64,0,3.4.10,1.el6 70
+  repo: mongodb-org-3.4
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb-org,x86_64,0,3.4.10,1.el6@a:dependson
+  depends_on: mongodb-org,x86_64,0,3.4.10,1.el6@a
+mbr: mongodb-org-mongos,x86_64,0,3.4.10,1.el6 70
+  repo: mongodb-org-3.4
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb-org,x86_64,0,3.4.10,1.el6@a:dependson
+  depends_on: mongodb-org,x86_64,0,3.4.10,1.el6@a
+mbr: mongodb-org-shell,x86_64,0,3.4.10,1.el6 70
+  repo: mongodb-org-3.4
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb-org,x86_64,0,3.4.10,1.el6@a:dependson
+  depends_on: mongodb-org,x86_64,0,3.4.10,1.el6@a

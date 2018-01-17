@@ -1,0 +1,25 @@
+187:9bd187a07ec2a20017c576e1bccbd3c94ffb334b
+32
+5
+base:6706:1490724196
+epel:12444:1513729175
+extras:47:1513264662
+nodesource:72:1512760150
+updates:834:1512574283
+2
+mbr: httpd,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: httpd-tools,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a

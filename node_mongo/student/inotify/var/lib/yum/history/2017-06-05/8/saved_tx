@@ -1,0 +1,11 @@
+173:3ac5839351bd53348ed96d1caff2eb32f0dbd538
+32
+0
+1
+mbr: inotify-tools,x86_64,0,3.14,1.el6 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

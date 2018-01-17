@@ -1,0 +1,17 @@
+195:5338fffbec8ae851201ee87e0196578226adf9f7
+32
+6
+base:6706:1490724196
+epel:12449:1515888017
+extras:47:1513264662
+mongodb-org-3.4:55:1508956264
+nodesource:75:1514956736
+updates:858:1515428493
+1
+mbr: php,x86_64,0,5.3.3,49.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False

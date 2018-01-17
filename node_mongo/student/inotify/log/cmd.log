@@ -727,3 +727,259 @@ boot  etc  home  lib      lost+found  mnt    opt           proc               sb
 exit$
 $
 Script done on Tue 16 Jan 2018 03:36:15 PM JST$
+Script started on Tue 16 Jan 2018 06:39:37 PM JST$
+^[]0;root@B14069:/^G^[[?1034h2018-01-16T18:39:37 root@B14069 /# exit$
+exit$
+$
+Script done on Tue 16 Jan 2018 06:39:39 PM JST$
+Script started on Wed 17 Jan 2018 11:30:57 AM JST$
+^[]0;root@B14069:/^G^[[?1034h2018-01-17T11:30:57 root@B14069 /# yum -ysta^H^[[K^H^[[K^H^[[K install php$
+Loaded plugins: fastestmirror, ovl$
+Setting up Install Process$
+Loading mirror speeds from cached hostfile$
+ * base: mirror.nus.edu.sg$
+ * epel: mirror.lzu.edu.cn$
+ * extras: mirror.vodien.com$
+ * updates: mirror.vodien.com$
+Resolving Dependencies$
+--> Running transaction check$
+---> Package php.x86_64 0:5.3.3-49.el6 will be installed$
+--> Finished Dependency Resolution$
+$
+Dependencies Resolved$
+$
+==============================================================================================================================================================$
+ Package                           Arch                                 Version                                      Repository                          Size$
+==============================================================================================================================================================$
+Installing:$
+ php                               x86_64                               5.3.3-49.el6                                 base                               1.1 M$
+$
+Transaction Summary$
+==============================================================================================================================================================$
+Install       1 Package(s)$
+$
+Total download size: 1.1 M$
+Installed size: 3.5 M$
+Downloading Packages:$
+http://mirror.nus.edu.sg/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 1178383 bytes remaining to read"$
+Trying other mirror.$
+php-5.3.3-49.el6.x86_64.rpm                                      34% [==================                                    ]  0.0 B/s | 396 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                      54% [=============================-                        ] 391 kB/s | 637 kB     00:01 ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:01     $
+http://ftp.nara.wide.ad.jp/pub/Linux/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=base clean metadata$
+Trying other mirror.$
+php-5.3.3-49.el6.x86_64.rpm                                      75% [=========================================             ]  0.0 B/s | 881 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     $
+Running rpm_check_debug$
+Running Transaction Test$
+Transaction Test Succeeded$
+Running Transaction$
+  Installing : php-5.3.3-49.el6.x86_64 [                                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#                                                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###                                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####                                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######                                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########                                                                                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########                                                                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############                                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############                                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################                                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################                                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################                                                                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################                                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################                                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################################                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################################                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################                                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################################                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################                                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################################                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################################                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################################################################                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################################################################################                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################################                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################################                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################################              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################################################            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################################################################################         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################################        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################################      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################################    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################################  ] 1/1  Installing : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 $
+  Verifying  : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 $
+$
+Installed:$
+  php.x86_64 0:5.3.3-49.el6                                                                                                                                   $
+$
+Complete!$
+^[]0;root@B14069:/^G2018-01-17T11:31:26 root@B14069 /# python cm^Gd_insert.py $
+^[]0;root@B14069:/^G2018-01-17T11:31:52 root@B14069 /# vim /var/www/html/test.php$
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"/var/www/html/test.php" [New File]^[[>c^[[2;1H~                                                                                                                                                             ^[[3;1H~                                                                                                                                                             ^[[4;1H~                                                                                                                                                             ^[[5;1H~                                                                                                                                                             ^[[6;1H~                                                                                                                                                             ^[[7;1H~                                                                                                                                                             ^[[8;1H~                                                                                                                                                             ^[[9;1H~                                                                                                                                                             ^[[10;1H~                                                                                                                                                             ^[[11;1H~                                                                                                                                                             ^[[12;1H~                                                                                                                                                             ^[[13;1H~                                                                                                                                                             ^[[14;1H~                                                                                                                                                             ^[[15;1H~                                                                                                                                                             ^[[16;1H~                                                                                                                                                             ^[[17;1H~                                                                                                                                                             ^[[18;1H~                                                                                                                                                             ^[[19;1H~                                                                                                                                                             ^[[20;1H~                                                                                                                                                             ^[[21;1H~                                                                                                                                                             ^[[22;1H~                                                                                                                                                             ^[[23;1H~                                                                                                                                                             ^[[24;1H~                                                                                                                                                             ^[[25;1H~                                                                                                                                                             ^[[26;1H~                                                                                                                                                             ^[[27;1H~                                                                                                                                                             ^[[28;1H~                                                                                                                                                             ^[[29;1H~                                                                                                                                                             ^[[30;1H~                                                                                                                                                             ^[[31;1H~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H0,0-1^[[9CAll^[[1;1H^[[?12l^[[?25h^[[?25l^[[44;1H-- INSERT --^[[44;13H^[[K^[[44;141H0,1^[[11CAll^[[1;1H^[[?12l^[[?25h^[[?25l<^[[44;141H1,2^[[1;2H^[[?12l^[[?25h^[[?25l^H<?^[[44;143H3^[[1;3H^[[?12l^[[?25h^[[?25lp^[[44;143H4^[[1;4H^[[?12l^[[?25h^[[?25lh^[[44;143H5^[[1;5H^[[?12l^[[?25h^[[?25l^H^Hphp^[[44;143H6^[[1;6H^[[?12l^[[?25h^[[?25l^[[2;1H^[[K^[[44;141H2,1^[[2;1H^[[?12l^[[?25h^[[?25l^[[3;1H^[[K^[[44;141H3^[[3;1H^[[?12l^[[?25h^[[?25l>^[[1;1H<$
+$
+>^[[44;143H2^[[3;2H^[[?12l^[[?25h^[[?25l^[[44;143H1^[[3;1H^[[?12l^[[?25h^[[?25l?>?>^[[44;143H2^[[3;2H^[[?12l^[[?25h^[[?25l^[[1;1H<$
+$
+?>^[[44;141H2,1^[[2;1H^[[?12l^[[?25h^[[?25lp^[[44;143H2^[[2;2H^[[?12l^[[?25h^[[?25lh^[[44;143H3^[[2;3H^[[?12l^[[?25h^[[?25lp^[[44;143H4^[[2;4H^[[?12l^[[?25h^[[?25li^[[44;143H5^[[2;5H^[[?12l^[[?25h^[[?25ln^[[44;143H6^[[2;6H^[[?12l^[[?25h^[[?25lf^[[44;143H7^[[2;7H^[[?12l^[[?25h^[[?25lphpinfo^[[44;143H8^[[2;8H^[[?12l^[[?25h^[[?25l(^[[44;143H9^[[2;9H^[[?12l^[[?25h^[[?25l)^H^H()^[[44;143H10^[[2;10H^[[?12l^[[?25h^[[?25l;^H^H^H()^[[44;144H1^[[2;11H^[[?12l^[[?25h^[[44;1H^[[K^[[2;10H^[[?25l^[[44;141H2,10^[[10CAll^[[2;10H^[[?12l^[[?25h^[[?25l^[[44;141H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"/var/www/html/test.php" [New] 3L, 20C written$
+^[[?1l^[>^[[?12l^[[?25h^[[?1049l^[]0;root@B14069:/^G2018-01-17T11:32:20 root@B14069 /# cd ino^Gtify$
+^[]0;root@B14069:/inotify^G2018-01-17T11:32:26 root@B14069 /inotify# shellscript/git_commit.sh $
+shellscript/git_commit.sh: line 8: cd: /git: No such file or directory$
+^C$
+^[]0;root@B14069:/inotify^G2018-01-17T11:32:40 root@B14069 /inotify# vim shellscript/git^G_commit.sh $
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"shellscript/git_commit.sh" 30L, 762C^[[>c^[[1;1H#!/bin/bash$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+monitor_dir=("etc" "var")$
+#M-gM-^OM->M-eM-^\M-(M-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+current_dir=`pwd`$
+$
+cd /git$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^BM-^RM-cM-^BM-3M-cM-^CM-^TM-cM-^CM-<$
+for d in ${monitor_dir[@]}; do$
+ cp -rp ${d}/ ${d}"_back"$
+ sudo cp -rp /${d} .$
+done$
+$
+#diffM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-fM-^NM-^HM-fM-%M--M-cM-^AM-.M-hM-*M-2M-iM-!M-^LM-cM-^AM-+M-eM->M-^SM-cM-^AM-^DM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-cM-^BM-^RM-hM-(M--M-eM-.M-^ZM-cM-^AM-^YM-cM-^BM-^K$
+for d in ${monitor_dir[@]}; do$
+ diff -ru ${d}"_back" ${d} >> log/diff.log$
+done$
+diff -u etc_back/httpd/conf/httpd.conf etc/httpd/conf/httpd.conf >> log/httpd_conf.log$
+find /var/www/html/test.php >> log/find_php.log$
+$
+#gitM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-eM-.M-^_M-hM-!M-^LM-cM-^AM-^WM-cM-^AM-^_M-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-gM-5M-^PM-fM-^-^\M-cM-^BM-^Rgit_cmd.logM-cM-^AM-+M-dM-?M-^]M-eM--M-^X$
+git add * >> log/git_cmd.log$
+git commit -m "0" >> log/git_cmd.log$
+$
+#M-eM-^EM-^CM-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^AM-+M-fM-^HM-;M-cM-^BM-^K$
+cd "$current_dir"$
+~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H22,1^[[10CAll^[[22;1H^[[?12l^[[?25h^[[?25l^[[44;142H3,0-1^[[23;1H^[[?12l^[[?25h^[[?25l^[[44;142H4,1  ^[[24;1H^[[?12l^[[?25h^[[?25l^[[44;142H5^[[25;1H^[[?12l^[[?25h^[[?25l^[[44;142H4^[[24;1H^[[?12l^[[?25h^[[?25l^[[44;142H3,0-1^[[23;1H^[[?12l^[[?25h^[[?25l^[[44;142H2,1  ^[[22;1H^[[?12l^[[?25h^[[?25l^[[44;142H1^[[21;1H^[[?12l^[[?25h^[[?25l^[[44;142H0^[[20;1H^[[?12l^[[?25h^[[?25l^[[44;141H19^[[19;1H^[[?12l^[[?25h^[[?25l^[[44;142H8^[[18;1H^[[?12l^[[?25h^[[?25l^[[44;142H7^[[17;1H^[[?12l^[[?25h^[[?25l^[[44;142H6^[[16;1H^[[?12l^[[?25h^[[?25l^[[44;142H5,0-1^[[15;1H^[[?12l^[[?25h^[[?25l^[[44;142H4,1  ^[[14;1H^[[?12l^[[?25h^[[?25l^[[44;142H3^[[13;1H^[[?12l^[[?25h^[[?25l^[[44;142H2^[[12;1H^[[?12l^[[?25h^[[?25l^[[44;142H1^[[11;1H^[[?12l^[[?25h^[[?25l^[[44;142H2^[[12;1H^[[?12l^[[?25h^[[?25l^[[44;142H3^[[13;1H^[[?12l^[[?25h^[[?25l^[[44;142H2^[[12;1H^[[?12l^[[?25h^[[?25l^[[44;142H1^[[11;1H^[[?12l^[[?25h^[[?25l^[[44;1H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"shellscript/git_commit.sh"^[OA 30L, 762C written$
+^[[?1l^[>^[[?12l^[[?25h^[[?1049l^[]0;root@B14069:/inotify^G2018-01-17T11:33:00 root@B14069 /inotify# vim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[4P^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[4@vim ^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C$
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"shellscript/git_commit.sh" 30L, 762C^[[>c^[[1;1H#!/bin/bash$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+monitor_dir=("etc" "var")$
+#M-gM-^OM->M-eM-^\M-(M-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+current_dir=`pwd`$
+$
+cd /git$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^BM-^RM-cM-^BM-3M-cM-^CM-^TM-cM-^CM-<$
+for d in ${monitor_dir[@]}; do$
+ cp -rp ${d}/ ${d}"_back"$
+ sudo cp -rp /${d} .$
+done$
+$
+#diffM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-fM-^NM-^HM-fM-%M--M-cM-^AM-.M-hM-*M-2M-iM-!M-^LM-cM-^AM-+M-eM->M-^SM-cM-^AM-^DM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-cM-^BM-^RM-hM-(M--M-eM-.M-^ZM-cM-^AM-^YM-cM-^BM-^K$
+for d in ${monitor_dir[@]}; do$
+ diff -ru ${d}"_back" ${d} >> log/diff.log$
+done$
+diff -u etc_back/httpd/conf/httpd.conf etc/httpd/conf/httpd.conf >> log/httpd_conf.log$
+find /var/www/html/test.php >> log/find_php.log$
+$
+#gitM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-eM-.M-^_M-hM-!M-^LM-cM-^AM-^WM-cM-^AM-^_M-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-gM-5M-^PM-fM-^-^\M-cM-^BM-^Rgit_cmd.logM-cM-^AM-+M-dM-?M-^]M-eM--M-^X$
+git add * >> log/git_cmd.log$
+git commit -m "0" >> log/git_cmd.log$
+$
+#M-eM-^EM-^CM-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^AM-+M-fM-^HM-;M-cM-^BM-^K$
+cd "$current_dir"$
+~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H11,1^[[10CAll^[[11;1H^[[?12l^[[?25h^[[?25l^[[44;1H^[[K^[[44;1H:^[[?12l^[[?25h8^[[?25l^[[?12l^[[?25h^[[?25l^[[140C8,1^[[11CAll^[[8;1H^[[?12l^[[?25h^[[?25l^[[44;143H2^[[8;2H^[[?12l^[[?25h^[[?25l^[[44;143H3^[[8;3H^[[?12l^[[?25h^[[?25l^[[44;143H2^[[8;2H^[[?12l^[[?25h^[[?25l^[[44;143H1^[[8;1H^[[?12l^[[?25h^[[?25l^[[44;141H7,0-1^[[7;1H^[[?12l^[[?25h^[[?25l^[[44;1H-- INSERT --^[[44;141H^[[K^[[44;141H7,1^[[11CAll^[[7;1H^[[?12l^[[?25h^[[?25lc^[[44;143H2^[[7;2H^[[?12l^[[?25h^[[?25l^Hcd^[[44;143H3^[[7;3H^[[?12l^[[?25h^[[?25l^[[44;143H4^[[7;4H^[[?12l^[[?25h^[[?25l/^[[44;143H5^[[7;5H^[[?12l^[[?25h^[[44;1H^[[K^[[7;4H^[[?25l^[[44;141H7,4^[[11CAll^[[7;4H^[[?12l^[[?25h^[[?25l^[[44;141H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"shellscript/git_commit.sh"^[OA 30L, 766C written$
+^[[?1l^[>^[[?12l^[[?25h^[[?1049l^[]0;root@B14069:/inotify^G2018-01-17T11:33:26 root@B14069 /inotify# vim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[4P^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C$
+shellscript/git_commit.sh: line 8: cd: /git: No such file or directory$
+cp: `/etc' and `./etc' are the same file$
+cp: `/var' and `./var' are the same file$
+shellscript/git_commit.sh: line 19: log/diff.log: No such file or directory$
+shellscript/git_commit.sh: line 19: log/diff.log: No such file or directory$
+shellscript/git_commit.sh: line 21: log/httpd_conf.log: No such file or directory$
+shellscript/git_commit.sh: line 22: log/find_php.log: No such file or directory$
+shellscript/git_commit.sh: line 26: log/git_cmd.log: No such file or directory$
+shellscript/git_commit.sh: line 27: log/git_cmd.log: No such file or directory$
+^[]0;root@B14069:/inotify^G2018-01-17T11:33:36 root@B14069 /inotify# ls$
+a.js  etc  etc_back  inotify.js  inotify.log  log  node_modules  package.json  package-lock.json  shellscript  var  var_back$
+^[]0;root@B14069:/inotify^G2018-01-17T11:33:45 root@B14069 /inotify# rm -rf e^Gtc$
+rm: cannot remove `etc/httpd': Directory not empty$
+rm: cannot remove `etc/pki/ca-trust/extracted': Directory not empty$
+rm: cannot remove `etc/pki/tls': Directory not empty$
+^C$
+^[]0;root@B14069:/inotify^G2018-01-17T11:34:17 root@B14069 /inotify# cd e^Gtc$
+^[]0;root@B14069:/inotify/etc^G2018-01-17T11:34:20 root@B14069 /inotify/etc# ls$
+adjtime.rpmsave    dbus-1                   gnupg        issue          openldap  rc6.d           security       sudo.conf           virc$
+aliases            depmod.d                 group        issue.net      opt       rc.d            selinux        sudoers             X11$
+b                  dhcp                     group-       krb5.conf      pkcs11    rc.local        services       sudoers.d           xdg$
+bash_completion.d  DIR_COLORS               gshadow      libaudit.conf  pki       rc.sysinit      sestatus.conf  sudo-ldap.conf      xinetd.d$
+bashrc             DIR_COLORS.256color      gshadow-     libuser.conf   popt.d    redhat-release  shadow         sysconfig           yum$
+BUILDTIME          DIR_COLORS.lightbgcolor  host.conf    localtime      printcap  resolv.conf     shadow-        sysctl.conf         yum.conf$
+c                  environment              hosts.allow  localtime.org  rc0.d     rpc             shells         sysctl.d            yum.repos.d$
+centos-release     ethers                   hosts.deny   login.defs     rc1.d     rpm             skel           system-release$
+chkconfig.d        exports                  httpd        magic          rc2.d     rwtab           ssh            system-release-cpe$
+crypttab           filesystems              init.d       makedev.d      rc3.d     rwtab.d         ssl            terminfo$
+csh.cshrc          fstab                    inittab      mime.types     rc4.d     sasl2           statetab       udev$
+csh.login          gcrypt                   inputrc      motd           rc5.d     securetty       statetab.d     vimrc$
+^[]0;root@B14069:/inotify/etc^G2018-01-17T11:34:24 root@B14069 /inotify/etc# cd /$
+^[]0;root@B14069:/^G2018-01-17T11:34:26 root@B14069 /# cd ino^Gtify$
+^[]0;root@B14069:/inotify^G2018-01-17T11:34:29 root@B14069 /inotify# ls$
+a.js  etc  etc_back  inotify.js  inotify.log  log  node_modules  package.json  package-lock.json  shellscript  var  var_back$
+^[]0;root@B14069:/inotify^G2018-01-17T11:34:30 root@B14069 /inotify# rm -rf e^Gtc*^H^[[K*$
+rm: cannot remove `etc/pki': Directory not empty$
+rm: cannot remove `etc/rc.d/init.d': Directory not empty$
+rm: cannot remove `etc/rc.d/rc0.d': Directory not empty$
+rm: cannot remove `etc/rc.d/rc1.d': Directory not empty$
+rm: cannot remove `etc/rc.d/rc4.d': Directory not empty$
+rm: cannot remove `etc/rc.d/rc5.d': Directory not empty$
+rm: cannot remove `etc/rc.d/rc6.d': Directory not empty$
+^C$
+^[]0;root@B14069:/inotify^G2018-01-17T11:34:56 root@B14069 /inotify# cd /$
+^[]0;root@B14069:/^G2018-01-17T11:35:05 root@B14069 /# s^H^[[K/inotify/shellscript/git^G__c^H^[[K^H^[[Kcommit.sh $
+/inotify/shellscript/git_commit.sh: line 8: cd: /git: No such file or directory$
+cp: `/etc' and `./etc' are the same file$
+^C$
+^[]0;root@B14069:/^G2018-01-17T11:35:18 root@B14069 /# cd ino^Gtify$
+^[]0;root@B14069:/inotify^G2018-01-17T11:35:25 root@B14069 /inotify# ls$
+a.js  etc  etc_back  inotify.js  inotify.log  log  node_modules  package.json  package-lock.json  shellscript  var  var_back$
+^[]0;root@B14069:/inotify^G2018-01-17T11:35:27 root@B14069 /inotify# vim shellscript/gi^Gt__c^H^[[K^H^[[Kcommit.sh $
+^[[?1049h^[[?1h^[=^[[2;1HM-bM-^VM-=^[[6n^[[2;1H  ^[[1;1H^[[1;44r^[[?12;25h^[[?12l^[[?25h^[[H^[[2J^[[?25l^[[44;1H"shellscript/git_commit.sh" 30L, 766C^[[>c^[[1;1H#!/bin/bash$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+monitor_dir=("etc" "var")$
+#M-gM-^OM->M-eM-^\M-(M-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*$
+current_dir=`pwd`$
+cd /$
+cd /git$
+$
+#M-gM-^[M-#M-hM-&M-^VM-cM-^AM-^WM-cM-^AM-&M-cM-^AM-^DM-cM-^BM-^KM-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^BM-^RM-cM-^BM-3M-cM-^CM-^TM-cM-^CM-<$
+for d in ${monitor_dir[@]}; do$
+ cp -rp ${d}/ ${d}"_back"$
+ sudo cp -rp /${d} .$
+done$
+$
+#diffM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-fM-^NM-^HM-fM-%M--M-cM-^AM-.M-hM-*M-2M-iM-!M-^LM-cM-^AM-+M-eM->M-^SM-cM-^AM-^DM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-cM-^BM-^RM-hM-(M--M-eM-.M-^ZM-cM-^AM-^YM-cM-^BM-^K$
+for d in ${monitor_dir[@]}; do$
+ diff -ru ${d}"_back" ${d} >> log/diff.log$
+done$
+diff -u etc_back/httpd/conf/httpd.conf etc/httpd/conf/httpd.conf >> log/httpd_conf.log$
+find /var/www/html/test.php >> log/find_php.log$
+$
+#gitM-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^I$
+#M-eM-.M-^_M-hM-!M-^LM-cM-^AM-^WM-cM-^AM-^_M-cM-^BM-3M-cM-^CM-^-cM-^CM-3M-cM-^CM-^IM-gM-5M-^PM-fM-^-^\M-cM-^BM-^Rgit_cmd.logM-cM-^AM-+M-dM-?M-^]M-eM--M-^X$
+git add * >> log/git_cmd.log$
+git commit -m "0" >> log/git_cmd.log$
+$
+#M-eM-^EM-^CM-cM-^AM-.M-dM-=M-^\M-fM-%M--M-cM-^CM-^GM-cM-^BM-#M-cM-^CM-,M-cM-^BM-/M-cM-^CM-^HM-cM-^CM-*M-cM-^AM-+M-fM-^HM-;M-cM-^BM-^K$
+cd "$current_dir"$
+~                                                                                                                                                             ^[[32;1H~                                                                                                                                                             ^[[33;1H~                                                                                                                                                             ^[[34;1H~                                                                                                                                                             ^[[35;1H~                                                                                                                                                             ^[[36;1H~                                                                                                                                                             ^[[37;1H~                                                                                                                                                             ^[[38;1H~                                                                                                                                                             ^[[39;1H~                                                                                                                                                             ^[[40;1H~                                                                                                                                                             ^[[41;1H~                                                                                                                                                             ^[[42;1H~                                                                                                                                                             ^[[43;1H~                                                                                                                                                             ^[[44;141H7,1^[[11CAll^[[7;1H^[[?12l^[[?25h^[[?25l^[[44;1H^[[K^[[44;1H:^[[?12l^[[?25h8^[[?25l^[[?12l^[[?25h^[[?25l^[[140C8,1^[[11CAll^[[8;1H^[[?12l^[[?25h^[[?25l^[[44;141H7^[[7;1H^[[?12l^[[?25h^[[?25l^[[7;43r^[[43;1H$
+^[[1;44r^[[43;1H~                                                                                                                                                             ^[[44;1H^[[K^[[44;141H7,1^[[11CAll^[[7;1H^[[?12l^[[?25h^[[?25l^[[44;141H8,0-1^[[8;1H^[[?12l^[[?25h^[[?25l^[[44;141H7,1  ^[[7;1H^[[?12l^[[?25h^[[?25l^[[44;1H-- INSERT --^[[44;141H^[[K^[[44;141H7,1^[[11CAll^[[7;1H^[[?12l^[[?25h^[[?25l^[[8;43r^[[8;1H^[[L^[[1;44r^[[7;1H^[[K^[[8;1Hcd /git^[[44;141H^[[K^[[44;141H8,1^[[11CAll^[[8;1H^[[?12l^[[?25h^[[44;1H^[[K^[[8;1H^[[?25l^[[44;141H8,1^[[11CAll^[[8;1H^[[?12l^[[?25h^[[?25l^[[44;141H^[[K^[[44;1H:^[[?12l^[[?25hw^[[?25l^[[?12l^[[?25hq^[[?25l^[[?12l^[[?25h^[[?25l"shellscript/git_commit.sh" 30L, 762C written$
+^[[?1l^[>^[[?12l^[[?25h^[[?1049l^[]0;root@B14069:/inotify^G2018-01-17T11:35:59 root@B14069 /inotify# cd /$
+^[]0;root@B14069:/^G2018-01-17T11:36:00 root@B14069 /# ls$
+bin       cmd_insert.py  etc       inotify      lib64       mnt           package-lock.json  sbin     step1.sh  sys  var$
+boot      cmd.log        etc_back  inotify.log  lost+found  node_modules  proc               selinux  step2.sh  tmp  var_back$
+check.sh  dev            home      lib          media       opt           root               srv      step3.sh  usr$
+^[]0;root@B14069:/^G2018-01-17T11:36:00 root@B14069 /# cd ^H^[[K^H^[[K^H^[[Kr m^H^[[K^H^[[Krm^H^[[K^H^[[K ^H^[[Km -rf e^Gtc$
+rm: cannot remove `etc/hostname': Device or resource busy$
+rm: cannot remove `etc/resolv.conf': Device or resource busy$
+rm: cannot remove `etc/hosts': Device or resource busy$
+^[]0;root@B14069:/^G2018-01-17T02:36:25 root@B14069 /# ^C$
+^[]0;root@B14069:/^G2018-01-17T02:36:25 root@B14069 /# c^H^[[Kmkdir git$
+^[]0;root@B14069:/^G2018-01-17T02:36:39 root@B14069 /# cd git/$
+^[]0;root@B14069:/git^G2018-01-17T02:36:42 root@B14069 /git# ls$
+^[]0;root@B14069:/git^G2018-01-17T02:36:43 root@B14069 /git# cp^H^[[K^H^[[Kv^H^[[Kls^H^Hcd git/^H^H^H^H^H^H^Hmkdir git^H^H^H^H^H^H^H^H^Hrm -rf etc^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hcd /^H^H^H^Hvim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hvim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^[[C^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hcd /^[[K^H^H^H^Hvim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hcd inotify^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hcd inotify^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hvim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hcd /^[[K^H^H^H^H^[[2Pls^H^Hrm -rf etc^H^H^H^H^H^H^H^H^H^H^[[1Pmkdir git^H^H^H^H^H^H^H^H^H^[[2Pcd git/^H^H^H^H^H^H^Hmkdir git^H^H^H^H^H^H^H^H^Hrm -rf etc^H^H^H^H^H^H^H^H^H^Hls^[[K^H^Hcd /^H^H^H^Hvim shellscript/git_commit.sh ^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hcd /^[[K^H^[[K^H^[[K^H^[[K^H^[[Kgit init$
+Initialized empty Git repository in /git/.git/$
+^[]0;root@B14069:/git^G2018-01-17T02:37:10 root@B14069 /git# cp -rf /e^Gtc /e^Gtc^H^H^H^H^[[1Petc^H^H^H$
+^[]0;root@B14069:/git^G2018-01-17T02:37:27 root@B14069 /git# cp -rf /etc etc^H^[[K^H^[[K^H^[[K^H^H^[[1P ^H^H^[[1P ^H^H^[[1P ^Hv ^Ha ^Hr ^H^[[C ^Hv ^Ha ^Hr ^H$
+^[]0;root@B14069:/git^G2018-01-17T02:37:40 root@B14069 /git# ls$
+etc  var$
+^[]0;root@B14069:/git^G2018-01-17T02:37:42 root@B14069 /git# ls^H^Hcp -rf /var var ^H^H^H^H^H^H^H^H^[[1Petc etc^H^H^H^H^H^H^H^H^[[1P^[[C^[[C^[[C^[[C^[[C^[[C^[[C_bac$
+^[]0;root@B14069:/git^G2018-01-17T02:37:54 root@B14069 /git# cp -rf etc etc_bac^H^H^H^H^H^[[1P_bac^H^H^H^H^H^[[1P_bac^H^H^H^H^H^[[1P_bac^H^H^H^Hv_bac^H^H^H^Ha_bac^H^H^H^Hr_bac^H^H^H^H^H^H^H^H^H^[[C^H^[[1P var_bac^H^H^H^H^H^H^H^H^H^[[1P var_bac^H^H^H^H^H^H^H^H^H^[[1P var_bac^H^H^H^H^H^H^H^Hv var_bac^H^H^H^H^H^H^H^Ha var_bac^H^H^H^H^H^H^H^Hr var_bac^H^H^H^H^H^H^H^H$
+^[]0;root@B14069:/git^G2018-01-17T02:38:01 root@B14069 /git# mkdir log$
+^[]0;root@B14069:/git^G2018-01-17T02:38:07 root@B14069 /git# ls$
+etc  etc_bac  log  var  var_bac$
+^[]0;root@B14069:/git^G2018-01-17T02:38:07 root@B14069 /git# cd log/$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:10 root@B14069 /git/log# tourch^H^[[K^H^[[K^H^[[Kch diff.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:17 root@B14069 /git/log# touch diff.log^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Khttpd_conf.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:24 root@B14069 /git/log# touch httpd_conf.log^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[K^H^[[Kdinf^H^[[K^H^[[K^H^[[Kfi^H^[[K^H^[[K^H^[[Kfing^H^[[Kd_^H^[[K.^H^[[K_php.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:37 root@B14069 /git/log# ls$
+diff.log  find_php.log  httpd_conf.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:40 root@B14069 /git/log# cmd ^H^[[K^H^[[K^H^[[K^H^[[Kls^H^Htouch find_php.log^H^H^H^H^H^H^H^H^H^H^H^Hhttpd_conf.log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[6Pdiff.log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[7Pcd log/^H^H^H^H^H^H^Htouch diff.log^H^H^H^H^H^H^H^Hhttpd_conf.log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^[[2Pfind_php.log^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^H^Hls^[[K^H^H^[[Kdb.l^H^[[K^H^[[K.log$
+bash: db.log: command not found$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:53 root@B14069 /git/log# ^Gdb.log^H^H^H^H^H^H^Gtdb.log^H^H^H^H^H^Hodb.log^H^H^H^H^H^Hudb.log^H^H^H^H^H^Hcdb.log^H^H^H^H^H^Hhdb.log^H^H^H^H^H^H db.log^H^H^H^H^H^H$
+^[]0;root@B14069:/git/log^G2018-01-17T02:38:59 root@B14069 /git/log# ls$
+db.log  diff.log  find_php.log  httpd_conf.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:39:00 root@B14069 /git/log# ls$
+db.log  diff.log  find_php.log  httpd_conf.log$
+^[]0;root@B14069:/git/log^G2018-01-17T02:39:22 root@B14069 /git/log# cd /$
+^[]0;root@B14069:/^G2018-01-17T02:39:24 root@B14069 /# cd /$
+^[]0;root@B14069:/^G2018-01-17T02:39:26 root@B14069 /# ls$
+bin       cmd_insert.py  etc       home         lib         media         opt                root     srv       step3.sh  usr$
+boot      cmd.log        etc_back  inotify      lib64       mnt           package-lock.json  sbin     step1.sh  sys       var$
+check.sh  dev            git       inotify.log  lost+found  node_modules  proc               selinux  step2.sh  tmp       var_back$
+^[]0;root@B14069:/^G2018-01-17T02:39:26 root@B14069 /# cd ino^Gtify$
+^[]0;root@B14069:/inotify^G2018-01-17T02:39:29 root@B14069 /inotify# shellscript/cmd_log_insert.sh $
