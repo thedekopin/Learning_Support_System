@@ -1,5 +1,5 @@
 #!/bin/bash
-cat -A /var/log/cmd.log | sed "s/\^\[\[[0-9;]*m//g" | sed "s/t\^H\^\[\[K//g" | sed "s/\^M//g" >> log/cmd.log
+cat -A /var/log/cmd.log | sed "s/\^\[\[[0-9;]*m//g" | sed "s/t\^H\^\[\[K//g" | sed "s/\^M//g" | sed "s/\^I//g" >> log/cmd.log
 
 flag=0
 HOST=`hostname`

@@ -1,1155 +1,0 @@
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in var/lib/yum/yumdb/m: 1b10c8c9eb7cfd86594e226ca4f00e56aa1ac2c5-MAKEDEV-3.24-6.el6-x86_64
-Only in var/lib/yum/yumdb/m: 1b10c8c9eb7cfd86594e226ca4f00e56aa1ac2c5-MAKEDEV-3.24-6.el6-x86_64
-Only in var/lib/yum/yumdb/m: 1b10c8c9eb7cfd86594e226ca4f00e56aa1ac2c5-MAKEDEV-3.24-6.el6-x86_64
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in var/lib/yum/yumdb/m: 1b10c8c9eb7cfd86594e226ca4f00e56aa1ac2c5-MAKEDEV-3.24-6.el6-x86_64
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-diff -ru var_back/log/cmd.log var/log/cmd.log
---- var_back/log/cmd.log	2018-01-17 02:21:56.000000000 +0000
-+++ var/log/cmd.log	2018-01-17 02:27:02.000000000 +0000
-@@ -1,55 +1,14 @@
--Script started on Wed 17 Jan 2018 11:16:55 AM JST
--]0;root@B14069:/[?1034h2018-01-17T11:16:55 root@B14069 /# yum -y install php
--Loaded plugins: fastestmirror, ovl
--Setting up Install Process
--Loading mirror speeds from cached hostfile
-- * base: mirror.nus.edu.sg
-- * epel: mirrors.nipa.cloud
-- * extras: mirror.vodien.com
-- * updates: mirror.vodien.com
--Resolving Dependencies
----> Running transaction check
-----> Package php.x86_64 0:5.3.3-49.el6 will be installed
----> Finished Dependency Resolution
--
--Dependencies Resolved
--
--==============================================================================================================================================================
-- Package                           Arch                                 Version                                      Repository                          Size
--==============================================================================================================================================================
--Installing:
-- php                               x86_64                               5.3.3-49.el6                                 base                               1.1 M
--
--Transaction Summary
--==============================================================================================================================================================
--Install       1 Package(s)
--
--Total download size: 1.1 M
--Installed size: 3.5 M
--Downloading Packages:
--http://mirror.nus.edu.sg/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 1179713 bytes remaining to read"
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      61% [=================================                     ]  0.0 B/s | 712 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--http://ftp.nara.wide.ad.jp/pub/Linux/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=base clean metadata
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      51% [===========================-                          ]  0.0 B/s | 598 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--Running rpm_check_debug
--Running Transaction Test
--Transaction Test Succeeded
--Running Transaction
--  Installing : php-5.3.3-49.el6.x86_64 [                                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#                                                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###                                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####                                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######                                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########                                                                                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########                                                                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############                                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############                                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################                                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################                                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################                                                                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################                                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################                                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################################                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################################                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################                                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################################                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################                                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################################                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################################                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################################################################                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################################################################################                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################################                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################################                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################################              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################################################            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################################################################################         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################################        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################################      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################################    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################################  ] 1/1  Installing : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--  Verifying  : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--
--Installed:
--  php.x86_64 0:5.3.3-49.el6                                                                   diff -ru var_back/log/cmd.log var/log/cmd.log
---- var_back/log/cmd.log	2018-01-17 02:21:56.000000000 +0000
-+++ var/log/cmd.log	2018-01-17 02:27:02.000000000 +0000
-@@ -1,55 +1,14 @@
--Script started on Wed 17 Jan 2018 11:16:55 AM JST
--]0;root@B14069:/[?1034h2018-01-17T11:16:55 root@B14069 /# yum -y install php
--Loaded plugins: fastestmirror, ovl
--Setting up Install Process
--Loading mirror speeds from cached hostfile
-- * base: mirror.nus.edu.sg
-- * epel: mirrors.nipa.cloud
-- * extras: mirror.vodien.com
-- * updates: mirror.vodien.com
--Resolving Dependencies
----> Running transaction check
-----> Package php.x86_64 0:5.3.3-49.el6 will be installed
----> Finished Dependency Resolution
--
--Dependencies Resolved
--
--==============================================================================================================================================================
-- Package                           Arch                                 Version                                      Repository                          Size
--==============================================================================================================================================================
--Installing:
-- php                               x86_64                               5.3.3-49.el6                                 base                               1.1 M
--
--Transaction Summary
--==============================================================================================================================================================
--Install       1 Package(s)
--
--Total download size: 1.1 M
--Installed size: 3.5 M
--Downloading Packages:
--http://mirror.nus.edu.sg/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 1179713 bytes remaining to read"
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      61% [=================================                     ]  0.0 B/s | 712 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--http://ftp.nara.wide.ad.jp/pub/Linux/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=base clean metadata
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      51% [===========================-                          ]  0.0 B/s | 598 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--Running rpm_check_debug
--Running Transaction Test
--Transaction Test Succeeded
--Running Transaction
--  Installing : php-5.3.3-49.el6.x86_64 [                                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#                                                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###                                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####                                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######                                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########                                                                                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########                                                                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############                                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############                                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################                                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################                                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################                                                                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################                                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################                                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################################                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################################                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################                                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################################                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################                                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################################                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################################                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################################################################                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################################################################################                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################################                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################################                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################################              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################################################            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################################################################################         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################################        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################################      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################################    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################################  ] 1/1  Installing : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--  Verifying  : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--
--Installed:
--  php.x86_64 0:5.3.3-49.el6                                                                                                                                   
--
--Complete!
--]0;root@B14069:/2018-01-17T11:17:20 root@B14069 /# rm-[K -rf /var/www/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd git/[K[K[K[K[K[K[Kexi[K[K[Kgit [K[K[K[Krm -rf /git/
--]0;root@B14069:/2018-01-17T11:21:24 root@B14069 /# rm -rf /var/www/html/test.php 
--]0;root@B14069:/2018-01-17T11:21:33 root@B14069 /# cd inotify
--]0;root@B14069:/inotify2018-01-17T11:21:40 root@B14069 /inotify# shellscript/cmd_log_insert.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit_init.sh 
-+Script started on Wed 17 Jan 2018 11:26:32 AM JST
-+]0;root@B14069:/[?1034h2018-01-17T11:26:32 root@B14069 /# ls
-+[0m[38;5;27mbin[0m   [38;5;34mcheck.sh[0m       cmd.log  [38;5;27metc[0m   [38;5;27minotify[0m      [38;5;27mlib[0m    [38;5;27mlost+found[0m  [38;5;27mmnt[0m           [38;5;27mopt[0m                [38;5;27mproc[0m  [38;5;27msbin[0m     [38;5;27msrv[0m       [38;5;34mstep2.sh[0m  [38;5;27msys[0m  [38;5;27musr[0m
-+[38;5;27mboot[0m  [38;5;34mcmd_insert.py[0m  [38;5;27mdev[0m      [38;5;27mhome[0m  inotify.log  [38;5;27mlib64[0m  [38;5;27mmedia[0m       [38;5;27mnode_modules[0m  package-lock.json  [38;5;27mroot[0m  [38;5;27mselinux[0m  [38;5;34mstep1.sh[0m  [38;5;34mstep3.sh[0m  [48;5;10;38;5;16mtmp[0m  [38;5;27mvar[0m
-+[m]0;root@B14069:/2018-01-17T11:26:35 root@B14069 /# cd [K[K[Kd[Kcd inotify
-+]0;root@B14069:/inotify2018-01-17T11:26:46 root@B14069 /inotify# ls
-+[0m[38;5;34ma.js[0m  [38;5;27metc[0m  [38;5;27metc_back[0m  [38;5;27mgit[0m  [38;5;34minotify.js[0m  inotify.log  [38;5;27mlog[0m  [38;5;27mnode_modules[0m  package.json  package-lock.json  [38;5;27mshellscript[0m  [38;5;27mvar[0m  [38;5;27mvar_back[0m
-+[m]0;root@B14069:/inotify2018-01-17T11:26:47 root@B14069 /inotify# shellscript/c[Kgit_init.sh 
- shellscript/git_init.sh: line 12: cd: /git: No such file or directory
- cp: cannot open `etc/gshadow' for reading: Permission denied
- cp: cannot open `etc/gshadow-' for reading: Permission denied
- cp: cannot open `etc/shadow' for reading: Permission denied
- cp: cannot open `etc/shadow-' for reading: Permission denied
-+:wq
-\ No newline at end of file
-                                                                
--
--Complete!
--]0;root@B14069:/2018-01-17T11:17:20 root@B14069 /# rm-[K -rf /var/www/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd git/[K[K[K[K[K[K[Kexi[K[K[Kgit [K[K[K[Krm -rf /git/
--]0;root@B14069:/2018-01-17T11:21:24 root@B14069 /# rm -rf /var/www/html/test.php 
--]0;root@B14069:/2018-01-17T11:21:33 root@B14069 /# cd inotify
--]0;root@B14069:/inotify2018-01-17T11:21:40 root@B14069 /inotify# shellscript/cmd_log_insert.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit_init.sh 
-+Script started on Wed 17 Jan 2018 11:26:32 AM JST
-+]0;root@B14069:/[?1034h2018-01-17T11:26:32 root@B14069 /# ls
-+[0m[38;5;27mbin[0m   [38;5;34mcheck.sh[0m       cmd.log  [38;5;27metc[0m   [38;5;27minotify[0m      [38;5;27mlib[0m    [38;5;27mlost+found[0m  [38;5;27mmnt[0m           [38;5;27mopt[0m                [38;5;27mproc[0m  [38;5;27msbin[0m     [38;5;27msrv[0m       [38;5;34mstep2.sh[0m  [38;5;27msys[0m  [38;5;27musr[0m
-+[38;5;27mboot[0m  [38;5;34mcmd_insert.py[0m  [38;5;27mdev[0m      [38;5;27mhome[0m  inotify.log  [38;5;27mlib64[0m  [38;5;27mmedia[0m       [38;5;27mnode_modules[0m  package-lock.json  [38;5;27mroot[0m  [38;5;27mselinux[0m  [38;5;34mstep1.sh[0m  [38;5;34mstep3.sh[0m  [48;5;10;38;5;16mtmp[0m  [38;5;27mvar[0m
-+[m]0;root@B14069:/2018-01-17T11:26:35 root@B14069 /# cd [K[K[Kd[Kcd inotify
-+]0;root@B14069:/inotify2018-01-17T11:26:46 root@B14069 /inotify# ls
-+[0m[38;5;34ma.js[0m  [38;5;27metc[0m  [38;5;27metc_back[0m  [38;5;27mgit[0m  [38;5;34minotify.js[0m  inotify.log  [38;5;27mlog[0m  [38;5;27mnode_modules[0m  package.json  package-lock.json  [38;5;27mshellscript[0m  [38;5;27mvar[0m  [38;5;27mvar_back[0m
-+[m]0;root@B14069:/inotify2018-01-17T11:26:47 root@B14069 /inotify# shellscript/c[Kgit_init.sh 
- shellscript/git_init.sh: line 12: cd: /git: No such file or directory
- cp: cannot open `etc/gshadow' for reading: Permission denied
- cp: cannot open `etc/gshadow-' for reading: Permission denied
- cp: cannot open `etc/shadow' for reading: Permission denied
- cp: cannot open `etc/shadow-' for reading: Permission denied
-+:wq
-\ No newline at end of file
-Binary files var_back/log/wtmp and var/log/wtmp differ
-Binary files var_back/log/wtmp and var/log/wtmp differ
-diff -ru var_back/log/cmd.log var/log/cmd.log
---- var_back/log/cmd.log	2018-01-17 02:21:56.000000000 +0000
-+++ var/log/cmd.log	2018-01-17 02:27:02.000000000 +0000
-@@ -1,55 +1,14 @@
--Script started on Wed 17 Jan 2018 11:16:55 AM JST
--]0;root@B14069:/[?1034h2018-01-17T11:16:55 root@B14069 /# yum -y install php
--Loaded plugins: fastestmirror, ovl
--Setting up Install Process
--Loading mirror speeds from cached hostfile
-- * base: mirror.nus.edu.sg
-- * epel: mirrors.nipa.cloud
-- * extras: mirror.vodien.com
-- * updates: mirror.vodien.com
--Resolving Dependencies
----> Running transaction check
-----> Package php.x86_64 0:5.3.3-49.el6 will be installed
----> Finished Dependency Resolution
--
--Dependencies Resolved
--
--==============================================================================================================================================================
-- Package                           Arch                                 Version                                      Repository                          Size
--==============================================================================================================================================================
--Installing:
-- php                               x86_64                               5.3.3-49.el6                                 base                               1.1 M
--
--Transaction Summary
--==============================================================================================================================================================
--Install       1 Package(s)
--
--Total download size: 1.1 M
--Installed size: 3.5 M
--Downloading Packages:
--http://mirror.nus.edu.sg/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 1179713 bytes remaining to read"
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      61% [=================================                     ]  0.0 B/s | 712 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--http://ftp.nara.wide.ad.jp/pub/Linux/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=base clean metadata
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      51% [===========================-                          ]  0.0 B/s | 598 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--Running rpm_check_debug
--Running Transaction Test
--Transaction Test Succeeded
--Running Transaction
--  Installing : php-5.3.3-49.el6.x86_64 [                                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#                                                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###                                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####                                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######                                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########                                                                                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########                                                                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############                                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############                                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################                                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################                                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################                                                                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################                                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################                                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################################                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################################                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################                                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################################                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################                                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################################                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################################                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################################################################                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################################################################################                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################################                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################################                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################################              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################################################            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################################################################################         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################################        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################################      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################################    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################################  ] 1/1  Installing : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--  Verifying  : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--
--Installed:
--  php.x86_64 0:5.3.3-49.el6                                                                                                                                   
--
--Complete!
--]0;root@B14069:/2018-01-17T11:17:20 root@B14069 /# rm-[K -rf /var/www/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd git/[K[K[K[K[K[K[Kexi[K[K[Kgit [K[K[K[Krm -rf /git/
--]0;root@B14069:/2018-01-17T11:21:24 root@B14069 /# rm -rf /var/www/html/test.php 
--]0;root@B14069:/2018-01-17T11:21:33 root@B14069 /# cd inotify
--]0;root@B14069:/inotify2018-01-17T11:21:40 root@B14069 /inotify# shellscript/cmd_log_insert.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit_init.sh 
-+Script started on Wed 17 Jan 2018 11:26:32 AM JST
-+]0;root@B14069:/[?1034h2018-01-17T11:26:32 root@B14069 /# ls
-+[0m[38;5;27mbin[0m   [38;5;34mcheck.sh[0m       cmd.log  [38;5;27metc[0m   [38;5;27minotify[0m      [38;5;27mlib[0m    [38;5;27mlost+found[0m  [38;5;27mmnt[0m           [38;5;27mopt[0m                [38;5;27mproc[0m  [38;5;27msbin[0m     [38;5;27msrv[0m       [38;5;34mstep2.sh[0m  [38;5;27msys[0m  [38;5;27musr[0m
-+[38;5;27mboot[0m  [38;5;34mcmd_insert.py[0m  [38;5;27mdev[0m      [38;5;27mhome[0m  inotify.log  [38;5;27mlib64[0m  [38;5;27mmedia[0m       [38;5;27mnode_modules[0m  package-lock.json  [38;5;27mroot[0m  [38;5;27mselinux[0m  [38;5;34mstep1.sh[0m  [38;5;34mstep3.sh[0m  [48;5;10;38;5;16mtmp[0m  [38;5;27mvar[0m
-+[m]0;root@B14069:/2018-01-17T11:26:35 root@B14069 /# cd [K[K[Kd[Kcd inotify
-+]0;root@B14069:/inotify2018-01-17T11:26:46 root@B14069 /inotify# ls
-+[0m[38;5;34ma.js[0m  [38;5;27metc[0m  [38;5;27metc_back[0m  [38;5;27mgit[0m  [38;5;34minotify.js[0m  inotify.log  [38;5;27mlog[0m  [38;5;27mnode_modules[0m  package.json  package-lock.json  [38;5;27mshellscript[0m  [38;5;27mvar[0m  [38;5;27mvar_back[0m
-+[m]0;root@B14069:/inotify2018-01-17T11:26:47 root@B14069 /inotify# shellscript/c[Kgit_init.sh 
- shellscript/git_init.sh: line 12: cd: /git: No such file or directory
- cp: cannot open `etc/gshadow' for reading: Permission denied
- cp: cannot open `etc/gshadow-' for reading: Permission denied
- cp: cannot open `etc/shadow' for reading: Permission denied
- cp: cannot open `etc/shadow-' for reading: Permission denied
-+:wq
-\ No newline at end of file
-Binary files var_back/log/wtmp and var/log/wtmp differ
-diff -ru var_back/log/cmd.log var/log/cmd.log
---- var_back/log/cmd.log	2018-01-17 02:21:56.000000000 +0000
-+++ var/log/cmd.log	2018-01-17 02:27:02.000000000 +0000
-@@ -1,55 +1,14 @@
--Script started on Wed 17 Jan 2018 11:16:55 AM JST
--]0;root@B14069:/[?1034h2018-01-17T11:16:55 root@B14069 /# yum -y install php
--Loaded plugins: fastestmirror, ovl
--Setting up Install Process
--Loading mirror speeds from cached hostfile
-- * base: mirror.nus.edu.sg
-- * epel: mirrors.nipa.cloud
-- * extras: mirror.vodien.com
-- * updates: mirror.vodien.com
--Resolving Dependencies
----> Running transaction check
-----> Package php.x86_64 0:5.3.3-49.el6 will be installed
----> Finished Dependency Resolution
--
--Dependencies Resolved
--
--==============================================================================================================================================================
-- Package                           Arch                                 Version                                      Repository                          Size
--==============================================================================================================================================================
--Installing:
-- php                               x86_64                               5.3.3-49.el6                                 base                               1.1 M
--
--Transaction Summary
--==============================================================================================================================================================
--Install       1 Package(s)
--
--Total download size: 1.1 M
--Installed size: 3.5 M
--Downloading Packages:
--http://mirror.nus.edu.sg/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno 14] PYCURL ERROR 18 - "transfer closed with 1179713 bytes remaining to read"
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      61% [=================================                     ]  0.0 B/s | 712 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--http://ftp.nara.wide.ad.jp/pub/Linux/centos/6.9/os/x86_64/Packages/php-5.3.3-49.el6.x86_64.rpm: [Errno -1] Package does not match intended download. Suggestion: run yum --enablerepo=base clean metadata
--Trying other mirror.
--php-5.3.3-49.el6.x86_64.rpm                                      51% [===========================-                          ]  0.0 B/s | 598 kB     --:-- ETA php-5.3.3-49.el6.x86_64.rpm                                                                                                            | 1.1 MB     00:00     
--Running rpm_check_debug
--Running Transaction Test
--Transaction Test Succeeded
--Running Transaction
--  Installing : php-5.3.3-49.el6.x86_64 [                                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#                                                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###                                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####                                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######                                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########                                                                                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########                                                                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############                                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############                                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################                                                                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################                                                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################                                                                                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################                                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################                                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################                                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################                                                                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################                                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################                                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################                                                                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################                                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################                                                                         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################                                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################                                                                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################                                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###############################################                                                                 ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#################################################                                                               ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################                                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################                                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################                                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#########################################################                                                       ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################                                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################                                                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################                                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################                                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###################################################################                                             ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################                                            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################                                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################                                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [###########################################################################                                     ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#############################################################################                                   ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################                                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################                                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################                              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#####################################################################################                           ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [######################################################################################                          ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################                        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################                      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################                    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################                  ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [################################################################################################                ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##################################################################################################              ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [####################################################################################################            ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [#######################################################################################################         ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [########################################################################################################        ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##########################################################################################################      ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [############################################################################################################    ] 1/1  Installing : php-5.3.3-49.el6.x86_64 [##############################################################################################################  ] 1/1  Installing : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--  Verifying  : php-5.3.3-49.el6.x86_64                                                                                                                    1/1 
--
--Installed:
--  php.x86_64 0:5.3.3-49.el6                                                                                                                                   
--
--Complete!
--]0;root@B14069:/2018-01-17T11:17:20 root@B14069 /# rm-[K -rf /var/www/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd git/[K[K[K[K[K[K[Kexi[K[K[Kgit [K[K[K[Krm -rf /git/
--]0;root@B14069:/2018-01-17T11:21:24 root@B14069 /# rm -rf /var/www/html/test.php 
--]0;root@B14069:/2018-01-17T11:21:33 root@B14069 /# cd inotify
--]0;root@B14069:/inotify2018-01-17T11:21:40 root@B14069 /inotify# shellscript/cmd_log_insert.sh [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit_init.sh 
-+Script started on Wed 17 Jan 2018 11:26:32 AM JST
-+]0;root@B14069:/[?1034h2018-01-17T11:26:32 root@B14069 /# ls
-+[0m[38;5;27mbin[0m   [38;5;34mcheck.sh[0m       cmd.log  [38;5;27metc[0m   [38;5;27minotify[0m      [38;5;27mlib[0m    [38;5;27mlost+found[0m  [38;5;27mmnt[0m           [38;5;27mopt[0m                [38;5;27mproc[0m  [38;5;27msbin[0m     [38;5;27msrv[0m       [38;5;34mstep2.sh[0m  [38;5;27msys[0m  [38;5;27musr[0m
-+[38;5;27mboot[0m  [38;5;34mcmd_insert.py[0m  [38;5;27mdev[0m      [38;5;27mhome[0m  inotify.log  [38;5;27mlib64[0m  [38;5;27mmedia[0m       [38;5;27mnode_modules[0m  package-lock.json  [38;5;27mroot[0m  [38;5;27mselinux[0m  [38;5;34mstep1.sh[0m  [38;5;34mstep3.sh[0m  [48;5;10;38;5;16mtmp[0m  [38;5;27mvar[0m
-+[m]0;root@B14069:/2018-01-17T11:26:35 root@B14069 /# cd [K[K[Kd[Kcd inotify
-+]0;root@B14069:/inotify2018-01-17T11:26:46 root@B14069 /inotify# ls
-+[0m[38;5;34ma.js[0m  [38;5;27metc[0m  [38;5;27metc_back[0m  [38;5;27mgit[0m  [38;5;34minotify.js[0m  inotify.log  [38;5;27mlog[0m  [38;5;27mnode_modules[0m  package.json  package-lock.json  [38;5;27mshellscript[0m  [38;5;27mvar[0m  [38;5;27mvar_back[0m
-+[m]0;root@B14069:/inotify2018-01-17T11:26:47 root@B14069 /inotify# shellscript/c[Kgit_init.sh 
- shellscript/git_init.sh: line 12: cd: /git: No such file or directory
- cp: cannot open `etc/gshadow' for reading: Permission denied
- cp: cannot open `etc/gshadow-' for reading: Permission denied
- cp: cannot open `etc/shadow' for reading: Permission denied
- cp: cannot open `etc/shadow-' for reading: Permission denied
-+:wq
-\ No newline at end of file
-Binary files var_back/log/wtmp and var/log/wtmp differ
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in var_back: var
-Only in var_back: var
-Only in var_back: var
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in var_back: var
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in var/lib/yum/yumdb/m: 1b10c8c9eb7cfd86594e226ca4f00e56aa1ac2c5-MAKEDEV-3.24-6.el6-x86_64
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back: rc2.d
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/alternatives: libip4tc000.x86_64
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: etc
-Only in etc: gshadow
-Only in etc: gshadow-
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc_back/rc.d/rc1.d: K15htcacheclean
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/rc.d/rc2.d: S08iptables
-Only in etc_back/rc.d/rc2.d: S10network
-Only in etc_back/rc.d/rc2.d: S55sshd
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/rc.d/rc4.d: S99local
-Only in etc_back/pki/ca-trust/source: ca-bundle.legacy.crt
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc5.d: K15htcacheclean
-Only in etc_back/rc.d/rc5.d: S08iptables
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc.d/rc6.d: K15htcacheclean
-Only in etc_back/rc.d/rc6.d: K89rdisc
-Only in etc_back/rc.d/rc6.d: S01reboot
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc_back/rc5.d: K15htcacheclean
-Only in etc_back/rc5.d: S08iptables
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc: shadow
-Only in etc: shadow-
-Only in etc_back/rc1.d: K15htcacheclean
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/rc6.d: K15htcacheclean
-Only in etc_back/rc6.d: K89rdisc
-Only in etc_back/rc6.d: S01reboot
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back/sysconfig/network-scripts: ifup
-Only in etc_back: rc2.d
-Only in etc_back/rc4.d: S99local

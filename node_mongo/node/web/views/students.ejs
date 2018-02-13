@@ -189,11 +189,6 @@
                                     </td>
                                     
                                     <td>
-                                        <% if( student.task[0] == 1 ) { %>
-                                            success
-                                        <% } else { %>
-                                            failed
-                                        <% } %>
                                     </td>
                                 </tr>
                                 <tr>
@@ -205,11 +200,6 @@
                                         <a class="btn" href="/students/check/<%= student.id %>/task.1" role="button">提出</a>
                                     </td>
                                     <td>
-                                        <% if( student.task[1] == 1 ) { %>
-                                            success
-                                            <% } else { %>
-                                                failed
-                                                <% } %>
                                     </td>
                                 </tr>
 
@@ -222,11 +212,6 @@
                                         <a class="btn" href="/students/check/<%= student.id %>/task.2" role="button">提出</a>
                                     </td>
                                     <td>
-                                        <% if( student.task[2] == 1 ) { %>
-                                            success
-                                        <% } else { %>
-                                            failed
-                                        <% } %>
                                     </td>
                                 </tr>
 
@@ -236,11 +221,60 @@
                     </div>
                     <div id="menu2" class="tab-pane fade">
                         <h3>変更履歴</h3>
-                        <a href=https://github.com/thedekopin/edit_log>log</a>
+			<table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>コミット履歴</th>
+                                    <th>詳細</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
                     </div>
                     <div id="menu3" class="tab-pane fade">
                         <h3>コマンド履歴</h3>
-                        <p>Some content.</p>
+ 			<%# student.forEach(function(st) { %>
+			    <%# st.id %><br>
+			    <%# st.date %><br>
+			    <%# st.dir %><br>
+			    <%# st.cmd %><br>
+			    <%# st.res %><br>
+			   <%# }); %>	      
                     </div>
 
                 </div>

@@ -6,7 +6,9 @@ RUN echo -e 'ZONE="Asia/Tokyo"\nUTC=false' > /etc/sysconfig/clock
 RUN cp /etc/localtime /etc/localtime.org
 RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
-COPY .bashrc ~/.bashrc
+COPY .bashrc /.bashrc
+RUN mv /.bashrc ~/
+RUN source ~/.bashrc
 
 RUN curl -sL https://rpm.nodesource.com/setup_8.x | bash - 
 RUN yum install -y nodejs gcc-c++ make

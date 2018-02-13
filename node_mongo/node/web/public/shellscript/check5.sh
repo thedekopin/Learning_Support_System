@@ -1,0 +1,1 @@
+curl student:8080/examples/

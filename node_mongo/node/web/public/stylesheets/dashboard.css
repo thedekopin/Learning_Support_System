@@ -122,3 +122,27 @@ body {
     display: inline-block;
     border-radius: 50%;
 }
+
+.cmd-result {
+    width: 500px;
+    margin-left: 300px;
+}
+
+.table-striped tbody td tr {
+    width: 100px;
+    max-width:50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.detail-result {
+    width: 500px;
+    margin-left: 300px;
+}
+
+.server_result {
+    width: 500px;
+    margin-left: 300px;
+}

@@ -5,10 +5,11 @@ services:
        container_name: "student"
        ports:
         - "80:80"
+        - "8080:8080"
         - "22:22"
        volumes:
         - ./student/inotify:/inotify
-       hostname: B14069
+       hostname: st001
        tty: true
     teacher:
        build: ./teacher
