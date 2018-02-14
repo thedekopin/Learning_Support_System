@@ -7,7 +7,7 @@ RUN echo -e 'ZONE="Asia/Tokyo"\nUTC=false' > /etc/sysconfig/clock
 RUN cp /etc/localtime /etc/localtime.org
 RUN ln -sf  /usr/share/zoneinfo/Asia/Tokyo /etc/localtime
 
-COPY .bashrc ~
+COPY .bashrc ~/.bashrc
 
 RUN yum -y install epel-release
 RUN yum -y install openssh-server
