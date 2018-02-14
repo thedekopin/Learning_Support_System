@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Learning Support System</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active">
+                        <a href="#">Task
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/teacher">All
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+                <h2 class="header"><%= student.id %></h2>
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a data-toggle="tab" href="#home">課題</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#menu1">進捗</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#menu2">変更</a>
+                    </li>
+                    <li>
+                        <a data-toggle="tab" href="#menu3">コマンド履歴</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="home" class="tab-pane fade in active">
+                        <h3>課題</h3>
+                        <h1>Apache入門！</h1>
+                        <br>
+                        <p class="h4">最終目的:この課題ではwebサーバーであるApacheを使って、web上にHello Apache!と表示させる。</p>
+                        <br>
+                        
+                        
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>1. Apacheをインストール</h4>
+                            </div>
+                            <div class="panel-body">
+                                <h4>yumコマンドを使ってApache(httpd)をインストールしよう</h4>
+                                <p>
+                                    yumコマンドとは、パッケージの統合管理システムである。このコマンドでさまざまなパッケージの管理ができる。
+                                    <br>
+                                    <br> 基本的な使い方として,
+                                    <br> ・インストールする場合
+                                    <code>yum -y install パッケージ名</code>
+                                    <br> ・アンインストールする場合
+                                    <code>yum -y erase パッケージ名</code>
+                                    <br> ・Apacheはhttpdというパッケージ名になっている。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>2. hello_apache.htmlを作成・配置する</h4>
+                            </div>
+                            <div class="panel-body">
+                                <h4>ドキュメントルートにhello_apahce.htmlを配置しよう</h4>
+                                <p>
+                                    Documentroot(ドキュメントルート)の説明は省略
+                                    <br> Apacheの標準のドキュメントルートは/var/www/html/以下になっている。(Centosの場合)
+                                    <br> そのディレクトリ以下にHTMLファイルを配置することでWebページを表示できるようになる。
+                                    <br>
+                                    <br> ・HTMLファイルの名前はhello_apache.htmlとする。
+                                    <br> ・ファイル内にはHello Apache!と書き込む。
+                                    <br> ・エディタはviを使用すれば良い。
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>3. Apacheを起動する！</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>
+                                    <h4>serviceコマンドでApacheを実行しよう</h4>
+                                    serviceコマンドの説明は省略
+                                    <br> serviceコマンドの基本的な使い方
+                                    <br> ・プログラムをスタートする場合
+                                    <code>service パッケージ名 start</code>
+                                    <br> ・プログラムをストップする場合
+                                    <code>service パッケージ名 stop</code>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary" style="width:1000px">
+                            <div class="panel-heading">
+                                <h4>Check! ブラウザを立ち上げて確認してみよう！</h4>
+                            </div>
+                            <div class="panel-body">
+                                <p>ブラウザを立ち上げて、URLにlocalhost/hello_apache.htmlに接続する。
+                                    <br> 下図のように表示されれば課題クリア!
+                                </p>
+                                <img>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="menu1" class="tab-pane fade">
+                        <h3>進捗状況</h3>
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>課題名</th>
+                                    <th>状況</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>
+                                        1. Apacheをインストール
+                                    </td>
+
+                                    <td>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.0" role="button">提出</a>
+                                    </td>
+                                    
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>2. hello_apache.htmlを作成・配置する
+                                        <%# taskList[0].task.name %>
+                                    </td>
+                                    <td>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.1" role="button">提出</a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>3. Apacheを起動する！
+                                        <%# taskList[0].task.name %>
+                                    </td>
+                                    <td>
+                                        <a class="btn" href="/students/check/<%= student.id %>/task.2" role="button">提出</a>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+                    </div>
+                    <div id="menu2" class="tab-pane fade">
+                        <h3>変更履歴</h3>
+			<table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>コミット履歴</th>
+                                    <th>詳細</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                    <td>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                    <td>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+                    <div id="menu3" class="tab-pane fade">
+                        <h3>コマンド履歴</h3>
+ 			<%# student.forEach(function(st) { %>
+			    <%# st.id %><br>
+			    <%# st.date %><br>
+			    <%# st.dir %><br>
+			    <%# st.cmd %><br>
+			    <%# st.res %><br>
+			   <%# }); %>	      
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/jq/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

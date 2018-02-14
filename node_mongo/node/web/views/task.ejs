@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>test</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/dashboard.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Learning Support System</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="#">Settings</a>
+                    </li>
+                    <li>
+                        <a href="#">Profile</a>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active">
+                        <a href="/students/task">演習課題
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/students/st001/cmd">コマンド実行履歴
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/students/st001/file">ファイル編集履歴
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/students/st001/server">サーバ状況確認履歴
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+                <div id="home" class="tab-pane fade in active">
+                    <h3>演習課題</h3>
+                    <h1>ApacheとTomcatの導入と連携</h1>
+                    <p class="h4">最終目的:ブラウザでApacheに接続して、Tomcatのサンプルページに接続する</p>
+                    <h2>・ApacheとTomcatの導入</h2>
+                    <div class="panel-heading">
+                        <h3>1. Apacheのインストール</h3>
+                        <h4>yumコマンドを使ってApacheをインストールする</h4>
+                        yumコマンドとは、パッケージの統合管理システムである。
+                        <br>このコマンドでさまざまなパッケージのインストールや削除ができる。
+                        <br>
+                        <br> 基本的な使い方
+                        <br> ・インストールする場合
+                        <code>yum -y install パッケージ名</code>
+                        <br>
+                        <br> ・アンインストールする場合
+                        <code>yum -y erase パッケージ名</code>
+                        <br>
+                        <br> Apacheはhttpdというパッケージ名になっている。
+                        <br>
+                        <br>コマンドが実行できたら、サーバ状況確認履歴ページに移動
+                        <br>
+                        <h4>この演習課題の状況確認ボタンを押して、Apacheのバージョン情報が表示されると成功</h4>
+                    </div>
+
+                    <div class="panel-heading">
+                        <h3>2. Apacheの起動とサンプルページの表示</h3>
+                        <h4>serviceコマンドを使ってApacheを起動する</h4>
+                        基本的な使い方
+                        <br> ・起動する場合
+                        <code>service パッケージ名 start</code>
+                        <br>
+                        <br> ・停止する場合
+                        <code>service パッケージ名 stop</code>
+                        <br>
+                        <br> ・再起動する場合
+                        <code>service パッケージ名 restart</code>
+                        <br>
+                        <br>
+                        <h4>ブラウザでApacheのサンプルページに接続する</h4>
+                        ブラウザのURLの欄にipアドレス:80を入力して、
+                        <br>サンプルページが参照できれば、成功
+                        <br>サンプルページが参照できれば、サーバ状況確認履歴ページに移動
+                        <br>
+                        <h4>この演習課題の状況確認ボタンを押して、Apacheのサンプルページが表示されると成功</h4>
+                    </div>
+
+                    <div class="panel-heading">
+                        <h3>3. javaコマンドのダウンロードとインストール</h3>
+                        <h4>wgetコマンドを使ってjavaのrmpパッケージをダウンロードする</h4>
+                        バージョンはJava SE Development Kit 8u161をダウンロードする
+                        <br>ダウンロードするディレクトリは
+                        <strong>/usr/local/src/</strong>以下とする
+                        <br>
+                        <br> 基本的な使い方
+                        <br> ・javaをダウンロードする場合
+                        <code>wget --no-check-certificate --no-cookies - --header "Cookie: oraclelicense=accept-securebackup-cookie"
+                            URL
+                        </code>
+                        <br>
+                        <br>URLの部分はjavaのダウンロードサイトからアドレスをコピーする
+                        <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">javaのダウンロードサイト</a>
+                        にアクセスして、Accept License AgreementにチェックをつけてLinux64 jdk-8u161-linux-x64.rpmのリンクのアドレスをコピーする
+                        <br>
+                        <br>
+                        <h4>rpmコマンドを使ってjavaをインストールする</h4>
+                        基本的な使い方
+                        <code>rpm -ivh パッケージ名</code>
+                        <br>
+                        <br>コマンドが一通り実行できれば、サーバ状況確認履歴ページに移動
+                        <br>
+                        <h4>この演習課題の状況確認ボタンを押して、javaに関するディレクトリの情報が表示されると成功</h4>
+                    </div>
+                    <div class="panel-heading">
+                        <h3>4. Tomcatのダウンロードと解凍、パスの設定</h3>
+                        <h4>wgetコマンドを使ってTomcatをダウンロードする</h4>
+                        バージョンはTomcat8.5.27をダウンロードする
+                        <br>ダウンロードするディレクトリは
+                        <strong>/usr/local/src/</strong>以下とする
+                        <br>
+                        <br> 基本的な使い方
+                        <br> ・ダウンロードする場合
+                        <code>wget URL</code>
+                        <br>
+                        <br>URLの部分はTomcatの
+                        <a href="https://tomcat.apache.org/download-80.cgi">Tomcatのダウンロードサイト</a>
+                        にアクセスして、Tomcat8.0のCoreのtar.gzというところのリンクのアドレスをコピーする
+                        <br>
+                        <br>
+                        <h4>tarコマンドを使ってファイルの解凍を行う</h4>
+                        基本的な使い方
+                        <br>・解凍する場合
+                        <code>tar -xvzf 解凍するファイル</code>
+                        <br>
+                        <br>
+                        <h4>Tomcatに必要なパスの設定を行う</h4>
+                        viというエディタを使ってパスの設定ファイルの書き換えを行う
+                        <br>
+                        <code>vi /etc/profile</code>
+                        <br>
+                        <br>プロファイルを開きJREなどのパスの設定を追記する
+                        <br>
+                        <code>JRE_HOME=/usr/java/default
+                            <br>CATALINA_HOME=/usr/local/src/解凍したTomcatのディレクトリ名
+                            <br>export JRE_HOME CATALINA_HOME</code>
+                        <br>
+                        <br> ファイル編集後、sourceコマンドを実行してパスの設定を反映させる
+                        <br>
+                        <code>source /etc/profile</code>
+                        <br>
+                        <br>コマンドが一通り実行できれば、サーバ状況確認履歴ページに移動
+                        <br>
+                        <h4>この演習課題の状況確認ボタンを押して、Tomcatのディレクトリ情報が表示されると成功</h4>
+                    </div>
+                    <div class="panel-heading">
+                        <h3>5. Tomcatの起動とサンプルページの表示</h3>
+                        <h4>Tomcatの起動を行う</h4>
+                        基本的な使い方
+                        <br>・Tomcatを起動するコマンド
+                        <br>
+                        <code>/usr/local/src/解凍したTomcatのディレクトリ名/bin/startup.sh</code>
+                        <br>・Tomcatを停止するコマンド
+                        <br>
+                        <code>/usr/local/src/解凍したTomcatのディレクトリ名/bin/shutdown.sh</code>
+                        <br>
+                        <br>
+                        <h4>ブラウザでTomcatのサンプルページに接続する</h4>
+                        ブラウザのURLの欄にipアドレス:8080/examples/を入力して、
+                        <br>サンプルページが参照できればTomcatの導入課題はクリア
+                        <br>コマンドが一通り実行できれば、サーバ状況確認履歴ページに移動
+                        <br>
+                        <h4>この演習課題の状況確認ボタンを押して、Tomcatのプロセス情報が表示されると成功</h4>
+
+                    </div>
+                    <h2>・ApacheとTomcatの連携</h2>
+                    <div class="panel-heading">
+                        <h3>6. Tomcatの設定ファイルを編集</h3>
+                        Tomcatの設定ファイルserver.xmlを編集する
+                        <br>
+                        <code>vi /usr/local/src/apache-tomcat-8.5.27/conf/server.xml</code>
+                        <br>
+                        <br> server.xmlから下記のConnector設定をコメントアウトする
+                        <br>
+                        <code>
+                            &lt;Connector port="9880" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443"/&gt;
+                        </code>
+                        <br>
+                        <br>
+                        <justify>
+                            &#9660;
+                            </justif>
+                            <br>
+                            <br>
+                            <code>
+                                &lt;!--
+                                <br> &lt;Connector port="9880" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443"/&gt;
+                                <br>--&gt;
+                            </code>
+                            <br>
+                            <br>
+                            <br>下記のportに設定されている番号を変更する
+                            <br>
+                            <code>
+                                &lt;Connector port="8009" protocol="AJP/1.3" redirectPort="8443"/&gt;
+                            </code>
+                            <br>
+                            <br>
+                            <justify>
+                                &#9660;
+                                </justif>
+                                <br>
+                                <br>
+                                <code>
+                                    &lt;Connector port="9880" protocol="AJP/1.3" redirectPort="8443"/&gt;
+                                </code>
+                                <br>
+                                <br>
+                                <h4>設定ファイルを読み込むために、Tomcatを再起動する</h4>
+                    </div>
+
+                    <div class="panel-heading">
+                        <h3>7. Apacheの設定ファイルを編集</h3>
+                        Apacheの設定ファイルhttpd.confを編集する
+                        <br>
+                        <code>vi /etc/httpd/conf/httpd.conf</code>
+                        <br>
+                        <br>httpd.confファイルに追記する
+                        <br>
+                        <code>
+                            &lt;Location /examples/&gt;
+                            <br> ProxyPass ajp://localhost:9880/examples/
+                            <br>&lt;/Location&gt;
+                        </code>
+                        <br>
+                        <br>
+                        <h4>設定ファイルを読み込むために、Apacheを再起動する</h4>
+                    </div>
+
+                    <div class="panel-heading">
+                        <h3>ブラウザでipアドレス/examples/に接続</h3>
+                        5. Tomcatの起動とサンプルページの表示の課題でブラウザで表示したページに接続できれば、
+                        <br>ApacheとTomcatの連携ができていることが確認できる
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/jq/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
